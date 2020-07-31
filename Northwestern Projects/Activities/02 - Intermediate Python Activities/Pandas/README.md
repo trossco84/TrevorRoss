@@ -1,4 +1,4 @@
-# Unit 4 Homework Assignment: A Whale Off the Port(folio)
+# Portfolio Analysis
 
 ![Portfolio Analysis](Images/portfolio-analysis.png)
 
@@ -6,25 +6,19 @@
 
 The investment division of Harold's company has been investing in algorithmic trading strategies. Some of the investment managers love them, some hate them, but they all think their way is best.
 
-You just learned these quantitative analysis techniques with Python and Pandas, so Harold has come to you with a challenge—to help him determine which portfolio is performing the best across many areas: volatility, returns, risk, and Sharpe ratios.
+In this Activity, I help him determine which portfolio is performing the best across many areas: volatility, returns, risk, and Sharpe ratios.
 
-You will need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
-
-In this homework assignment, you will be accomplishing three main tasks:
+I created a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. I used the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous investors like Warren Buffett, and some from the big hedge and mutual funds. I then used this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
+___
+### Contents
 
 1. [Read in and Wrangle Returns Data](#Prepare-the-Data)
 2. [Determine Success of Each Portfolio](#Conduct-Quantitative-Analysis)
 3. [Choose and Evaluate a Custom Portfolio](#Create-Custom-Portfolio)
 
----
-
-## Instructions
-
-**File:** [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb)
-
 ### Prepare the Data
 
-First, read and clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. Use the [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb) to complete the following steps:
+First, read and clean several CSV files for analysis. The CSV files include major investor portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. 
 
 1. Use Pandas to read in each of the [CSV files](Starter_Code/Resources) as a DataFrame. Be sure to convert the dates to a `DateTimeIndex`.
 
@@ -32,9 +26,9 @@ First, read and clean several CSV files for analysis. The CSV files include whal
 
 3. Remove dollar signs from the numeric values and convert the data types as needed.
 
-4. The whale portfolios and algorithmic portfolio CSV files contain daily returns, but the S&P 500 CSV file contains closing prices. Convert the S&P 500 closing prices to daily returns.
+4. The portfolio CSV files contain daily returns, but the S&P 500 CSV file contains closing prices. Convert the S&P 500 closing prices to daily returns.
 
-5. Join `Whale Returns`, `Algorithmic Returns`, and the `S&P 500 Returns` into a single DataFrame with columns for each portfolio's returns.
+5. Join returns into a single DataFrame with columns for each portfolio's returns.
 
   ![returns-dataframe.png](Images/returns-dataframe.png)
 
@@ -44,19 +38,19 @@ Analyze the data to see if any of the portfolios outperform the stock market (i.
 
 #### Performance Analysis
 
-1. Calculate and plot cumulative returns. Does any portfolio outperform the S&P 500?
+1. Calculate and plot cumulative returns.
 
 #### Risk Analysis
 
-1. Create a box plot for each of the returns. Which box has the largest spread? Which has the smallest spread?
+1. Create a box plot for each of the returns. Determine which box has the largest and smallest spreads.
 
-2. Calculate the standard deviation for each portfolio. Which portfolios are riskier than the S&P 500?
+2. Calculate the standard deviation for each portfolio. Determine which portfolios are riskier than the S&P 500.
 
 #### Rolling Statistics
 
 1. Plot the rolling standard deviation of the various portfolios along with the rolling standard deviation of the S&P 500 (consider a 21 day rolling window). Does the risk increase for each of the portfolios at the same time risk increases in the S&P?
 
-2. Construct a correlation table for the algorithmic, whale, and S&P 500 returns. Which returns most closely mimic the S&P?
+2. Construct a correlation table for the algorithmic, whale, and S&P 500 returns.
 
 3. Choose one portfolio and plot a rolling beta between that portfolio's returns and S&P 500 returns. Does the portfolio seem sensitive to movements in the S&P 500?
 
@@ -66,11 +60,11 @@ Investment managers and their institutional investors look at the return-to-risk
 
 1. Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot.
 
-2. Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios.
+2. Determine whether the algorithmic strategies outperform both the market (S&P 500) and the other portfolios.
 
 ### Create Custom Portfolio
 
-Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales' portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
+Harold is ecstatic that I was able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and others' portfolios. However, now I I wonder whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
 
 1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for your own portfolio.
 
