@@ -96,7 +96,8 @@ for tup in num_friends_by_id:
 
 #Creating a Recommendation System based on Interests and Mutual Connections
 #foaf means friend of friend
-username = input("What is your name?")
+#Mutual Friends
+#username = input("What is your name?")
 
 def mutual_friends(input2):
     if (type(input2)==str):
@@ -120,4 +121,118 @@ def foaf(ui):
                         mf_list.append(users[mf])
     return mf_list
 
-print(mutual_friends(username))
+#print(mutual_friends(username))
+
+#Interests
+
+interests = [(0, "Hadoop"), (0, "Big Data"), (0, "HBase"), (0, "Java"),(0, "Spark"), (0, "Storm"), (0, "Cassandra"),
+(1, "NoSQL"), (1, "MongoDB"), (1, "Cassandra"), (1, "HBase"),
+(1, "Postgres"), (2, "Python"), (2, "scikit-learn"), (2, "scipy"),
+(2, "numpy"), (2, "statsmodels"), (2, "pandas"), (3, "R"), (3, "Python"),
+(3, "statistics"), (3, "regression"), (3, "probability"),
+(4, "machine learning"), (4, "regression"), (4, "decision trees"),
+(4, "libsvm"), (5, "Python"), (5, "R"), (5, "Java"), (5, "C++"),
+(5, "Haskell"), (5, "programming languages"), (6, "statistics"),
+(6, "probability"), (6, "mathematics"), (6, "theory"),
+(7, "machine learning"), (7, "scikit-learn"), (7, "Mahout"),
+(7, "neural networks"), (8, "neural networks"), (8, "deep learning"),
+(8, "Big Data"), (8, "artificial intelligence"), (9, "Hadoop"),
+(9, "Java"), (9, "MapReduce"), (9, "Big Data")
+]
+
+names_list = [user["name"] for user in users]
+ids_list = [user["id"] for user in users]
+dicts_list = [user for user in users]
+
+def users_name(input_user):
+    if (type(input_user)==str):
+        if input_user in names_list:
+            uname = input_user
+        else:
+            return "Please Enter a Valid Name for User"
+    elif (type(input_user)==int):
+        if input_user in ids_list:
+            uname = [user["name"] for user in users if user["id"]==input_user][0]
+        else:
+            return "Please Enter a Valid ID for User"
+    elif (type(input_user)==dict):
+        if input_user in dicts_list:
+            uname = input_user["name"]
+        else:
+            return "Please Enter a Valid User for User"
+    else:
+        return "Please Enter Valid Input (name, id, or user dictionary)"
+    return uname
+
+def users_id(input_user):
+    if (type(input_user)==str):
+        if input_user in names_list:
+            uid = [user["id"] for user in users if user["name"]==input_user][0]
+        else:
+            return "Please Enter a Valid Name"
+    elif (type(input_user)==int):
+        if input_user in ids_list:
+            uid = input_user
+        else:
+            return "Please Enter a Valid ID"
+    elif (type(input_user)==dict):
+        if input_user in dicts_list:
+            uid = input_user["id"]
+        else:
+            return "Please Enter a Valid User"
+    else:
+        return "Please Enter Valid Input (name, id, or user dictionary)"
+    return uid
+
+users_id("Hero")
+#simple function to find data scientists names who like a certain interest
+def data_scientists_who_like(target_interest):
+    return[users_name(user_id) for user_id,user_interest in interests if user_interest == target_interest]
+
+
+users_interests = []
+check_list = []
+for interest_tuple in interests:
+    user_id = interest_tuple[0]
+    interest = interest_tuple[1]
+    if user_id in check_list:
+        current_interests = list(users_interests[user_id][users_name(user_id)])
+        current_interests.append(interest)
+        users_interests[user_id][users_name(user_id)] = current_interests
+    else:
+        check_list.append(user_id)
+        users_interests.append({(users_name(user_id)):[interest]})
+
+def retrieve_users_interests(input_user2):
+    if type(input_user2)==str:
+        if input_user2 in names_list:
+            interest_list = list(users_interests[users_id(input_user2)].values())[0]
+        else:
+            return "Please Enter a Valid Name"
+    elif (type(input_user2)==int):
+        if input_user2 in ids_list:
+            interest_list = list(users_interests[input_user2].values())[0]
+        else:
+            return "Please Enter a Valid ID"
+    elif (type(input_user2)==dict):
+        if input_user2 in dicts_list:
+            interest_list = list(users_interests[users_id(input_user2)].values())[0]
+        else:
+            return "Please Enter a Valid User"
+    else:
+        return "Please Enter Valid Input (name, id, or user dictionary)"
+    return interest_list
+
+
+def recommend_based_on_interests(input_user3):
+    uid = users_id(input_user3)
+    print("People Who You Share Interests With:")
+    print()
+    for user_interest in retrieve_users_interests(uid):
+        shared_users = []
+        for user in users:
+            if user_interest in retrieve_users_interests(user):
+                shared_users.append(user["name"])
+        print(f'{user_interest}: ',', '.join(shared_users))
+
+recommend_based_on_interests(users[0])
