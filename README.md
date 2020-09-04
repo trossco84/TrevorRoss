@@ -7,6 +7,7 @@ As you can probably tell, my name is Trevor Ross. I was born and raised in South
 * Data Science and Machine Learning
 
   Language: Python
+  
   This is a collection of projects worked on while I was a Teaching Assistant for a FinTech Bootcamp at Northwestern University and notes that I've taken throughout my Data Science Journey. A majority of these projects revolve around financial analysis and portfolio evaluation, or creating ML models from scratch (without libraries)
 * Games
 
