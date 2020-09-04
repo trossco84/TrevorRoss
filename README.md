@@ -1,7 +1,7 @@
 # Welcome to My Personal Repository
 
 ## About Me
-As you can probably tell, my name is Trevor Ross. I was born and raised in South Florida (North Palm Beach) and attended the Univeristy of Florida. I obtained a Bachelor of Science in Industrial and Systems Engineering, with a minor in statistics. I am currently working as a Decision Consultant (think: Solution Consultant + Data Science Consultant) in Chicago, IL. I enjoy most sports, whether it's playing or watching, and playing with my dog Boomer.
+As you can probably tell, my name is Trevor Ross. I was born and raised in South Florida (North Palm Beach) and attended the Univeristy of Florida. I obtained a Bachelor of Science in Industrial and Systems Engineering, with a minor in statistics. I am currently working as a Decision Consultant (think: Solution Consultant + Data Science Consultant) in Chicago, IL. I enjoy most sports, whether it's playing or watching, and hanging out with my dog Boomer.
 
 ## Collections in this Repository
 * Data Science and Machine Learning
