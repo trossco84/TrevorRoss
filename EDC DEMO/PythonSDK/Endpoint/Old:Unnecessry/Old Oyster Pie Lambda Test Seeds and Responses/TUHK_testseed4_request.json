@@ -1,0 +1,18 @@
+{
+	"input": {
+		"purchaser": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+    	"first_name": "JOE FAI",
+    	"last_name": "TUWONG",
+    	"other_name": "DO DO",
+    	"first_id_number": "G1234772",
+    	"first_id_type": "ID",
+    	"first_issue_country_cd": "HKG",
+    	"address_line1": "FLAT 405 4/F",
+    	"address_line2":"SINCERE WESTERN HOUSE",
+    	"enquiry_amount":"100000",
+    	"enquiry_purpose":"A000",
+    	"dob":"1976-02-17"
+  },
+  "timeout": 0,
+  "expected_format": "application/json"
+}

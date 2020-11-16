@@ -1,0 +1,61 @@
+[
+    {
+        "WPPro": {
+            "Metadata": {
+                "Client": "",
+                "ReportVendor": "",
+                "ReportName": "",
+                "ReportVersion": "",
+                "ReportEnvironment": "",
+                "MatchData": [],
+                "StalenessLookback": 0,
+                "TimeoutLength": 0,
+                "TraceID": ""
+            },
+            "Functions": {},
+            "InputParameters": {
+                "first_name": "",
+                "last_name": "",
+                "home_phone": "",
+                "email": "",
+                "end_user_ip": "",
+                "address_line_1": "",
+                "address_line_2": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "country_code": ""
+            },
+            "response": {
+                "identity_check_score": 468.0,
+                "identity_network_score": 0.83
+            },
+            "ResponseStructure": {
+                "identity_check_score": "",
+                "identity_network_score": ""
+            }
+        },
+        "Request": {
+            "OysterPieID": "TestCase",
+            "FirstName": "HighFraud",
+            "LastName": "",
+            "Phone": "",
+            "EmailAddress": "",
+            "IPAddress": "",
+            "Address1": "",
+            "Address2": "",
+            "City": "",
+            "State": "",
+            "Zip": "",
+            "CountryCode": ""
+        },
+        "Response": {
+            "Decision": "Decline",
+            "Reason": "Whitepages Pro Identiy Check Score Too High",
+            "FraudRisk": "93.6%"
+        },
+        "Tracing": {
+            "TraceID": "64981fc2-d0ce-4c4a-86f6-fd66310be045-Fv1wovla7rgiNwpx+TrTaiLP+T1g8xe11q+ODPm/QNs=-0"
+        }
+    }
+]

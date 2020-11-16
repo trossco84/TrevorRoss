@@ -1,0 +1,269 @@
+{
+    "id": "693ed31d-f382-4a9b-8d63-12f7d9ce3702",
+    "created_at": "2020-09-16T17: 55: 27Z",
+    "status": "complete",
+    "redirect_uri": null,
+    "result": "clear",
+    "sandbox": true,
+    "tags": [],
+    "results_uri": "https: //dashboard.onfido.com/checks/693ed31d-f382-4a9b-8d63-12f7d9ce3702",
+    "form_uri": null,
+    "paused": false,
+    "type": "express",
+    "report_type_groups": [
+        "8036"
+    ],
+    "download_uri": "https://onfido.com/dashboard/pdf/information_requests/87247298",
+    "href": "/v2/applicants/b89538ec-cd9d-450a-b80b-f4f5e49ba3ef/checks/693ed31d-f382-4a9b-8d63-12f7d9ce3702",
+    "reports": [
+        {
+            "created_at": "2020-09-16T17:55:27Z",
+            "documents": [],
+            "href": "/v2/checks/693ed31d-f382-4a9b-8d63-12f7d9ce3702/reports/47f6777e-ae7f-4167-a31d-c53e5c8268df",
+            "id": "47f6777e-ae7f-4167-a31d-c53e5c8268df",
+            "name": "facial_similarity",
+            "properties": {
+                "score": 0.6512
+            },
+            "result": "clear",
+            "status": "complete",
+            "sub_result": null,
+            "variant": "standard",
+            "breakdown": {
+                "face_comparison": {
+                    "result": "clear"
+                },
+                "image_integrity": {
+                    "result": "clear",
+                    "breakdown": {
+                        "face_detected": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "source_integrity": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "visual_authenticity": {
+                    "result": "clear"
+                }
+            }
+        },
+        {
+            "created_at": "2020-09-16T17:55:27Z",
+            "documents": [
+                {
+                    "id": "82e0d18d-1a86-46e5-a041-5e5a4f7e8345"
+                }
+            ],
+            "href": "/v2/checks/693ed31d-f382-4a9b-8d63-12f7d9ce3702/reports/95e66d8d-51dd-4a7c-8077-5636edf12c77",
+            "id": "95e66d8d-51dd-4a7c-8077-5636edf12c77",
+            "name": "document",
+            "properties": {
+                "nationality": "",
+                "last_name": "Smith",
+                "issuing_country": "GBR",
+                "gender": "",
+                "first_name": "John",
+                "document_type": "passport",
+                "document_numbers": [
+                    {
+                        "value": "999999999",
+                        "type": "document_number"
+                    }
+                ],
+                "date_of_expiry": "2030-01-01",
+                "date_of_birth": "1990-01-01"
+            },
+            "result": "clear",
+            "status": "complete",
+            "sub_result": "clear",
+            "variant": "standard",
+            "breakdown": {
+                "compromised_document": {
+                    "result": "clear"
+                },
+                "police_record": {
+                    "result": "clear"
+                },
+                "data_consistency": {
+                    "result": "clear",
+                    "breakdown": {
+                        "date_of_expiry": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_numbers": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "issuing_country": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_type": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "date_of_birth": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "gender": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "first_name": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "last_name": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "nationality": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "visual_authenticity": {
+                    "result": "clear",
+                    "breakdown": {
+                        "fonts": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "picture_face_integrity": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "template": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "security_features": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "original_document_present": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "digital_tampering": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "other": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "face_detection": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "image_integrity": {
+                    "result": "clear",
+                    "breakdown": {
+                        "image_quality": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "conclusive_document_quality": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "supported_document": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "colour_picture": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "age_validation": {
+                    "result": "clear",
+                    "breakdown": {
+                        "minimum_accepted_age": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "data_validation": {
+                    "result": "clear",
+                    "breakdown": {
+                        "gender": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "date_of_birth": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_numbers": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_expiration": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "expiry_date": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "mrz": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                },
+                "data_comparison": {
+                    "result": "clear",
+                    "breakdown": {
+                        "issuing_country": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "gender": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "date_of_expiry": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "last_name": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_type": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "document_numbers": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "first_name": {
+                            "result": "clear",
+                            "properties": {}
+                        },
+                        "date_of_birth": {
+                            "result": "clear",
+                            "properties": {}
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "version": "2.0"
+}

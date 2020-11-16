@@ -80,11 +80,11 @@ def show_the_board(currentgame):
         playerhand.append(card2)
         print(f"Player{i+1}'s Hand:{playerhand}")
 
-# def show_the_round(current_round):
-
+def show_the_round(current_round):
 
 def play_a_round(players,cards):
     playersanddealer = players.copy()
+    cards = cards_dealt.copy()
     playersanddealer.append("Dealer")
     starting_hand = cards.iloc[:,-1]
     rounddf = pd.DataFrame(data=playersanddealer,columns=['CardSlots'])
@@ -92,7 +92,10 @@ def play_a_round(players,cards):
     rounddf['DealtCard2'] = list(starting_hand[1::2])
     players_final_totals = []
     dealer_showing = rounddf.loc[rounddf['CardSlots']=='Dealer']['DealtCard1'].values[0]
+    outcomes_df = pd.DataFrame(data=players, columns = ['Players'])
+    player_outcomes =[]
     players_hands = []
+    additional_cards = 0
     player_stops = []
     busted_list = []
     for player in players:
@@ -103,6 +106,7 @@ def play_a_round(players,cards):
         players_current_hand.append(rounddf.loc[rounddf['CardSlots']==player]['DealtCard1'].values[0])
         players_current_hand.append(rounddf.loc[rounddf['CardSlots']==player]['DealtCard2'].values[0])
         player_current_total = get_hand_value(players_current_hand)
+        extra_cards = [[] for player in players]
         players_final_totals = []
 
         blackjack_string_list = ['21','11/21']
@@ -144,8 +148,7 @@ def play_a_round(players,cards):
                     print(f'Card Dealt: {newcardvalue}')
                     print(f'Current Hand: {players_current_hand}')
                     print(f'Current Total: {player_current_total}')
-                    bword = bustcheck(players_current_hand)
-                    if bword == True:
+                    if bustcheck(players_current_hand) == True:
                         print("That's Too Many!")
                         print("Busted")
                         doubled = False
@@ -187,10 +190,15 @@ def play_a_round(players,cards):
                     busted_or_staying = True      
 
         elif blackjackcheck == True:
+            print()
+            print(f"{player} it's your turn!")
+            print()           
             print(f'Current Hand: {players_current_hand}')
             print(f'Current Total: {player_current_total}')
             print("Blackjack! (Pays 3:2)")
             print()
+            busted_list.append(busted)
+            player_stops.append("BlackJack")
         players_hands.append(players_current_hand)
 
     dealers_hand = []
@@ -209,7 +217,7 @@ def play_a_round(players,cards):
             busted = True
             dealer_result = "Bust"
             busted_list.append(busted)
-        dealer_value = get_hand_value(dealer_dealers_hand)
+        dealer_value = get_hand_value(dealers_hand)
         print(f'Dealer Total: {dealer_value}')
         dealer_check = does_dealer_hit(dealer_value)
         if dealer_check == False:
@@ -255,6 +263,8 @@ def bustcheck(hand):
         return False
 
 
+
+
 def get_hand_value(cards):
     players_current_hand=['ACE','7']
     number_list = ['1','2','3','4','5','6','7','8','9','10']
@@ -281,7 +291,12 @@ def get_hand_value(cards):
     else:
         totalstr = str(total1)+"/"+str(total2)
     return totalstr
-      
+
+
+        
+        
+
+        
 
 def play_ball():
     print("Welcome to Blackjack, built by trevor ross")
@@ -355,10 +370,15 @@ def play_ball():
 
 
 
-play_ball()
-# #Images
-# import matplotlib.pyplot as plt 
-# import matplotlib.image as mpimg
-# img = mpimg.imread('/Users/tross/WILD/RossCo/Dev/deckofcards/static/img/KH.png')
-# imgplot = plt.imshow(img)
-# plt.show()
+
+
+
+
+
+
+#Images
+import matplotlib.pyplot as plt 
+import matplotlib.image as mpimg
+img = mpimg.imread('/Users/tross/WILD/RossCo/Dev/deckofcards/static/img/KH.png')
+imgplot = plt.imshow(img)
+plt.show()

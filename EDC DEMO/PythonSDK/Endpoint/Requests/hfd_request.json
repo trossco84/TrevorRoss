@@ -1,0 +1,16 @@
+[{
+    "Request": {
+    "FirstName": "KENNETH",
+    "LastName": "MAHLOCH",
+    "DOB": "03-24-1989",
+    "SSN": "666-94-6673",
+    "Phone": "",
+    "ApplicantIdentifier": "12345698",
+    "Address1": "1335 DOLAR LN",
+    "Address2": "",
+    "City": "MARNE",
+    "State": "MI",
+    "Zip": "49435"
+    }
+    }
+]

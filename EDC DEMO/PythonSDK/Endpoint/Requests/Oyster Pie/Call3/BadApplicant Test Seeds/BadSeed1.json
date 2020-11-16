@@ -1,0 +1,31 @@
+[
+    {
+      "Request": {
+        "OysterPieID": "OPCall3_BadSeed1",
+        "EnquiryPurpose": "A000",
+        "EnquiryAmount": 10000,    
+        "FirstName": "TUTEST ONE",            
+        "LastName": "TULEE",
+        "LastName2": "",
+        "LastName3": "",
+        "OtherName": "",
+        "Suffix": "",
+        "DOB": "02-13-1988",
+        "FirstIDNumber": "A2345563",
+        "FirstIDType": "ID",
+        "FirstIssueCountryCD": "HKG",
+        "SecondIDNumber": "",
+        "SecondIDType": "",
+        "SecondIssueCountryCD": "",
+        "AddressLine1": "TULEE TUTEST ONE LINE 1",
+        "AddressLine2": "TULEE TUTEST ONE LINE 2",
+        "District": "",
+        "Territory": "",
+        "PhoneNumber": "",
+        "LoanTenor":1,
+        "MonthlyIncome": 28000,
+        "Occupation": "Shop Manager",
+        "MonthlyRent": 1200
+      }
+    }
+  ]

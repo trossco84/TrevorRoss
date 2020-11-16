@@ -1,0 +1,18 @@
+{
+	"input": {
+		"purchaser": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+    	"first_name": "TUTEST ONE",
+    	"last_name": "TULEE",
+    	"other_name": "",
+    	"first_id_number": "A2345563",
+    	"first_id_type": "ID",
+    	"first_issue_country_cd": "HKG",
+    	"address_line1": "TULEE TUTEST ONE LINE 1",
+    	"address_line2":"TULEE TUTEST ONE LINE 2",
+    	"enquiry_amount":"100000",
+    	"enquiry_purpose":"A000",
+    	"dob":"1988-02-13"
+  },
+  "timeout": 0,
+  "expected_format": "application/json"
+}

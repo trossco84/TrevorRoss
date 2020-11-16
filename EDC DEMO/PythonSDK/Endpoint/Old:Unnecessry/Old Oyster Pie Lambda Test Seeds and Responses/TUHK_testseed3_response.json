@@ -1,0 +1,1129 @@
+{
+    "header_segment": {
+        "segment_tag": "TUEF",
+        "version": "10",
+        "user_reference": "                         ",
+        "subscriber_code": "FF2562070",
+        "subject_return_code": "1",
+        "enquiry_control_number": "117175156"
+    },
+    "data_segment": [
+        {
+            "name_segment": {
+                "segment_tag": "N01",
+                "last_name1": "TUCHAN",
+                "first_name": "EIGHT ONE",
+                "other_name": "ROBERT",
+                "dob": "02011980",
+                "id": "C2222300"
+            },
+            "address_segments": [
+                {
+                    "segment_tag": "A01",
+                    "address_line1": "FLAT A,FLOOR 4,BLOCK 1",
+                    "address_line2": "GRUFJ EQTRIB",
+                    "district": "HO MAN TIN",
+                    "territory": "KLN",
+                    "reported_date": "27042020"
+                },
+                {
+                    "segment_tag": "A02",
+                    "address_line1": "KLHLKLJ HJKL",
+                    "district": "HUNGHOM",
+                    "territory": "HONGKONG",
+                    "reported_date": "20112019"
+                },
+                {
+                    "segment_tag": "A03",
+                    "address_line1": "TUCHAN EIGHT ONE ADDRESS LINE 1 TUCHAN EIGHT ONE",
+                    "address_line2": "ADDRESS LINE 2",
+                    "reported_date": "07082008"
+                },
+                {
+                    "segment_tag": "A04",
+                    "address_line1": "RM 622 BLK 31",
+                    "address_line2": "KWAI CHUNG EST",
+                    "district": "TSUEN WAN",
+                    "reported_date": "07082008"
+                }
+            ],
+            "score_segments": [
+                {
+                    "segment_tag": "S01",
+                    "score_type": "CM01",
+                    "score": "3133",
+                    "grade": "FF",
+                    "probability": "2.04",
+                    "disrupted_information": "N",
+                    "limited_performance_history": "N"
+                }
+            ],
+            "summary_segments": [
+                {
+                    "segment_tag": "S01",
+                    "safe_scan_alert": "1",
+                    "watch_list_alert": "0",
+                    "new_accnt_alert": "---",
+                    "closed_accounts": "0",
+                    "related_parties": "0",
+                    "alias_name": "0",
+                    "past_due_account": "0",
+                    "open_accounts": "21",
+                    "public_records": "0",
+                    "enquiry_alert": "138"
+                }
+            ],
+            "credit_summary_segments": [],
+            "credit_exposure_segments": [],
+            "account_segments": [],
+            "writ_segments": [],
+            "petition_segments": [],
+            "enquiry_alert_segments": []
+        },
+        {
+            "name_segment": {
+                "segment_tag": "S01",
+                "last_name1": "TUCHAN",
+                "first_name": "EIGHT ONE",
+                "dob": "01021980",
+                "id": "PPC2222300"
+            },
+            "address_segments": [
+                {
+                    "segment_tag": "A01",
+                    "address_line1": "ROOM 605 TUNG MING BLDG",
+                    "address_line2": "40-42 DES VOEUS RD C",
+                    "territory": "HK",
+                    "reported_date": "21112017"
+                },
+                {
+                    "segment_tag": "A02",
+                    "address_line1": "TUCHAN EIGHT ONE ADDRESS LINE 1 TUCHAN EIGHT ONE",
+                    "address_line2": "ADDRESS LINE 2",
+                    "reported_date": "14112017"
+                }
+            ],
+            "score_segments": [],
+            "summary_segments": [],
+            "credit_summary_segments": [],
+            "credit_exposure_segments": [
+                {
+                    "segment_tag": "E01",
+                    "total_accounts_revolving": "18",
+                    "total_installment_amount": "41000",
+                    "total_credit_limit": "360000",
+                    "total_accounts_termloan": "3",
+                    "total_loan_amount": "5020000",
+                    "credit_exposure_type": "I"
+                }
+            ],
+            "account_segments": [
+                {
+                    "segment_tag": "O001",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5300",
+                    "currency_code": "HI",
+                    "opened_date": "01012007",
+                    "past_due_amount": "0"
+                },
+                {
+                    "segment_tag": "O002",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O003",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O004",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O005",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O006",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O007",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O008",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O009",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O010",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O011",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O012",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O013",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O014",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O015",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O016",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O017",
+                    "account_status": "FINANCE ",
+                    "account_type": "A",
+                    "account_assoc_code": "5100",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O018",
+                    "account_status": "FINANCE ",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "01012007",
+                    "terms": "180"
+                },
+                {
+                    "segment_tag": "O019",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "01012007",
+                    "terms": "180"
+                },
+                {
+                    "segment_tag": "O020",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "01012016",
+                    "terms": "12"
+                },
+                {
+                    "segment_tag": "O021",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5100",
+                    "currency_code": "HI",
+                    "opened_date": "01012016"
+                }
+            ],
+            "writ_segments": [],
+            "petition_segments": [],
+            "enquiry_alert_segments": [
+                {
+                    "segment_tag": "E001",
+                    "date": "21052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E002",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E003",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E004",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E005",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E006",
+                    "date": "04052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E007",
+                    "date": "04052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E008",
+                    "date": "27042020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E009",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E010",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E011",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E012",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E013",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E014",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E015",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E016",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E017",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E018",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E019",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E020",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E021",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E022",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E023",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E024",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E025",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E026",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E027",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E028",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E029",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E030",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E031",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E032",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E033",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E034",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E035",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E036",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E037",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E038",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E039",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E040",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E041",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E042",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E043",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E044",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E045",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E046",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E047",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E048",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E049",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E050",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E051",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E052",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E053",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E054",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E055",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E056",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E057",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E058",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E059",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E060",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E061",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E062",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E063",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E064",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E065",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E066",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E067",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E068",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E069",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E070",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E071",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E072",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E073",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E074",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E075",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E076",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E077",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E078",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E079",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E080",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E081",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E082",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E083",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E084",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E085",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E086",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E087",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E088",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E089",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E090",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E091",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E092",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E093",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E094",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E095",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E096",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E097",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E098",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E099",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E100",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E101",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E102",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E103",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E104",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E105",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E106",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E107",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E108",
+                    "date": "24022020",
+                    "type": "1101",
+                    "purpose": "W"
+                },
+                {
+                    "segment_tag": "E109",
+                    "date": "20022020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E110",
+                    "date": "12122019",
+                    "type": "5200",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E111",
+                    "date": "10122019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E112",
+                    "date": "20112019",
+                    "type": "1100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E113",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E114",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E115",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E116",
+                    "date": "16102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E117",
+                    "date": "16102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E118",
+                    "date": "15102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E119",
+                    "date": "15102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E120",
+                    "date": "15102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E121",
+                    "date": "15102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E122",
+                    "date": "19092019",
+                    "type": "5700",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E123",
+                    "date": "16092019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E124",
+                    "date": "16092019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E125",
+                    "date": "11092019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E126",
+                    "date": "11092019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E127",
+                    "date": "30082019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E128",
+                    "date": "15072019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E129",
+                    "date": "30052019",
+                    "type": "5100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E130",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E131",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E132",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E133",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E134",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E135",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E136",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E137",
+                    "date": "17052019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E138",
+                    "date": "28022019",
+                    "type": "5100",
+                    "purpose": "A"
+                }
+            ]
+        }
+    ],
+    "key": "transunion_hk/4e527bda-41d4-458a-9083-5f35330f9590"
+}

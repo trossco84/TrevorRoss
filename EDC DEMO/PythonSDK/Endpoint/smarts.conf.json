@@ -1,0 +1,10 @@
+{
+	"AppId": "362690EF4B73DB05E4FF54A64E2E6B493F6E3913",
+	"AppKey": "gF78Qtw1ECI6dFnmG1tPTBUWXukSE4d5yeGTKJ9C",
+	"Username": "lebronjames",
+	"Password": "EDC123456",
+	"Workspace": "EDC/Demo",
+	"DeploymentId": "Client Demo",
+	"DecisionId": "Demo Flow",
+	"ServiceUrl": "https://api.edc.trial.enovadecisions.com/DecisionServer/decision-services"
+}

@@ -1,0 +1,18 @@
+{		
+	"input": {	
+		"purchaser": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+    	"first_name": "LXX YXX",	
+    	"last_name": "LXXXX",	
+    	"other_name": "JXXX",	
+    	"first_id_number": "A0185879",	
+    	"first_id_type": "ID",	
+    	"first_issue_country_cd": "HKG",	
+    	"address_line1": "C/O WING ON MEDICINE LTD 35C G/F FOOK ON BLDG",	
+    	"address_line2":"SHEK KIP MEI ST SHAM SHUI PO KLN",	
+    	"enquiry_amount":"100000",	
+    	"enquiry_purpose":"A000",	
+    	"dob":"1961-11-02"	
+  },		
+  "timeout": 0,		
+  "expected_format": "application/json"		
+}		

@@ -1,0 +1,465 @@
+[
+    {
+        "OnfidoForm": {
+            "Metadata": {
+                "Client": "",
+                "ReportVendor": "",
+                "ReportName": "",
+                "ReportVersion": "",
+                "ReportEnvironment": "",
+                "MatchData": [],
+                "StalenessLookback": 0,
+                "TimeoutLength": 0,
+                "TraceID": ""
+            },
+            "Functions": {},
+            "InputParameters": {
+                "applicant_id": "",
+                "check_id": ""
+            },
+            "Response": {
+                "Result": "",
+                "DocumentReport": {
+                    "Result": "",
+                    "Status": "",
+                    "SubResult": "",
+                    "Breakdowns": {
+                        "AgeValidation": {
+                            "Result": "",
+                            "Breakdown": {
+                                "MinimumAcceptedAge": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "CompromisedDocument": {
+                            "Result": ""
+                        },
+                        "DataComparison": {
+                            "Result": "",
+                            "Breakdown": {
+                                "IssuingCountry": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "LastName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentType": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FirstName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "DataConsistency": {
+                            "Result": "",
+                            "Breakdown": {
+                                "IssuingCountry": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "LastName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentType": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FirstName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Nationality": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "DataValidation": {
+                            "Result": "",
+                            "Breakdown": {
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "MRZ": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "VisualAuthenticity": {
+                            "Result": "",
+                            "Breakdown": {
+                                "Fonts": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "PictureFaceIntegrity": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Template": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "SecurityFeatures": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "OriginalDocumentPresent": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DigitalTampering": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Other": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FaceDetection": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "ImageIntegrity": {
+                            "Result": "",
+                            "Breakdown": {
+                                "ImageQuality": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "ConclusiveDocumentQuality": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "SupportedDocument": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "ColourPicture": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "PoliceRecord": {
+                            "Result": ""
+                        }
+                    }
+                },
+                "FacialSimilarityStandard": {
+                    "Result": "",
+                    "Properties": {
+                        "Score": 0.0
+                    },
+                    "Breakdowns": {
+                        "FaceComparison": {
+                            "Result": ""
+                        },
+                        "ImageIntegrity": {
+                            "Result": "",
+                            "FaceDetected": {
+                                "Result": "",
+                                "Properties": []
+                            },
+                            "SourceIntegrity": {
+                                "Result": "",
+                                "Properties": []
+                            }
+                        },
+                        "VisualAuthenticity": {
+                            "Result": ""
+                        }
+                    }
+                }
+            },
+            "ResponseStructure": {
+                "Result": "",
+                "DocumentReport": {
+                    "Result": "",
+                    "Status": "",
+                    "SubResult": "",
+                    "Breakdowns": {
+                        "AgeValidation": {
+                            "Result": "",
+                            "Breakdown": {
+                                "MinimumAcceptedAge": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "CompromisedDocument": {
+                            "Result": ""
+                        },
+                        "DataComparison": {
+                            "Result": "",
+                            "Breakdown": {
+                                "IssuingCountry": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "LastName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentType": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FirstName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "DataConsistency": {
+                            "Result": "",
+                            "Breakdown": {
+                                "IssuingCountry": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "LastName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentType": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FirstName": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Nationality": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "DataValidation": {
+                            "Result": "",
+                            "Breakdown": {
+                                "Gender": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentNumbers": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DateOfBirth": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DocumentExpiration": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "MRZ": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "VisualAuthenticity": {
+                            "Result": "",
+                            "Breakdown": {
+                                "Fonts": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "PictureFaceIntegrity": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Template": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "SecurityFeatures": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "OriginalDocumentPresent": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "DigitalTampering": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "Other": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "FaceDetection": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "ImageIntegrity": {
+                            "Result": "",
+                            "Breakdown": {
+                                "ImageQuality": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "ConclusiveDocumentQuality": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "SupportedDocument": {
+                                    "Result": "",
+                                    "Properties": []
+                                },
+                                "ColourPicture": {
+                                    "Result": "",
+                                    "Properties": []
+                                }
+                            }
+                        },
+                        "PoliceRecord": {
+                            "Result": ""
+                        }
+                    }
+                },
+                "FacialSimilarityStandard": {
+                    "Result": "",
+                    "Properties": {
+                        "Score": ""
+                    },
+                    "Breakdowns": {
+                        "FaceComparison": {
+                            "Result": ""
+                        },
+                        "ImageIntegrity": {
+                            "Result": "",
+                            "FaceDetected": {
+                                "Result": "",
+                                "Properties": []
+                            },
+                            "SourceIntegrity": {
+                                "Result": "",
+                                "Properties": []
+                            }
+                        },
+                        "VisualAuthenticity": {
+                            "Result": ""
+                        }
+                    }
+                }
+            }
+        },
+        "Request": {
+            "OysterPieID": "TestCase",
+            "AppID": "NotClear",
+            "CheckID": "BadDocument"
+        },
+        "Response": {
+            "IdentityCheck": "Not Cleared, further analysis required",
+            "FacialSimilarityCheck": "Clear",
+            "DocumentVerificationCheck": "Not Cleared"
+        },
+        "Tracing": {
+            "TraceID": "a62b14c9-e52b-424c-aa10-599ee7694fc0-WgRD7BR52FZEy/zE4CLQCFvyhaLizmbIx7OQaI5C0Ss=-0"
+        }
+    }
+]

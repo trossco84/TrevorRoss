@@ -1,0 +1,31 @@
+[
+  {
+    "Request": {
+      "OysterPieID": "OP123",
+      "EnquiryPurpose": "A000",
+      "EnquiryAmount": 10000,    
+      "FirstName": "LXX YXX",            
+      "LastName": "LXXXX",
+      "LastName2": "",
+      "LastName3": "",
+      "OtherName": "JXXX",
+      "Suffix": "",
+      "DOB": "11-02-1961",
+      "FirstIDNumber": "A0185879",
+      "FirstIDType": "ID",
+      "FirstIssueCountryCD": "HKG",
+      "SecondIDNumber": "",
+      "SecondIDType": "",
+      "SecondIssueCountryCD": "",
+      "AddressLine1": "C/O WING ON MEDICINE LTD 35C G/F FOOK ON BLDG",
+      "AddressLine2": "SHEK KIP MEI ST SHAM SHUI PO KLN",
+      "District": "",
+      "Territory": "",
+      "PhoneNumber": "15613130059",
+      "LoanTenor":6,
+      "MonthlyIncome": 30000,
+      "Occupation": "Carpenter",
+      "MonthlyRent": 800
+    }
+  }
+]

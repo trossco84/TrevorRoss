@@ -1,0 +1,31 @@
+[
+    {
+      "Request": {
+        "OysterPieID": "TestCase",
+        "EnquiryPurpose": "",
+        "EnquiryAmount": 1,    
+        "FirstName": "CounterOffer",            
+        "LastName": "",
+        "LastName2": "",
+        "LastName3": "",
+        "OtherName": "",
+        "Suffix": "",
+        "DOB": "",
+        "FirstIDNumber": "",
+        "FirstIDType": "",
+        "FirstIssueCountryCD": "",
+        "SecondIDNumber": "",
+        "SecondIDType": "",
+        "SecondIssueCountryCD": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "District": "",
+        "Territory": "",
+        "PhoneNumber": "",
+        "LoanTenor":1,
+        "MonthlyIncome": 11,
+        "Occupation": "",
+        "MonthlyRent": 1
+      }
+    }
+  ]

@@ -1,0 +1,61 @@
+[
+    {
+        "WPPro": {
+            "Metadata": {
+                "Client": "",
+                "ReportVendor": "",
+                "ReportName": "",
+                "ReportVersion": "",
+                "ReportEnvironment": "",
+                "MatchData": [],
+                "StalenessLookback": 0,
+                "TimeoutLength": 0,
+                "TraceID": ""
+            },
+            "Functions": {},
+            "InputParameters": {
+                "first_name": "",
+                "last_name": "",
+                "home_phone": "",
+                "email": "",
+                "end_user_ip": "",
+                "address_line_1": "",
+                "address_line_2": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "country_code": ""
+            },
+            "response": {
+                "identity_check_score": 232.0,
+                "identity_network_score": 0.24
+            },
+            "ResponseStructure": {
+                "identity_check_score": "",
+                "identity_network_score": ""
+            }
+        },
+        "Request": {
+            "OysterPieID": "TestCase",
+            "FirstName": "LowFraud",
+            "LastName": "",
+            "Phone": "",
+            "EmailAddress": "",
+            "IPAddress": "",
+            "Address1": "",
+            "Address2": "",
+            "City": "",
+            "State": "",
+            "Zip": "",
+            "CountryCode": ""
+        },
+        "Response": {
+            "Decision": "Remediate/Continue Processing",
+            "Reason": "Whitepages Pro Identiy Check Score Accepted",
+            "FraudRisk": "46.4%"
+        },
+        "Tracing": {
+            "TraceID": "cc0b89df-1d9d-4766-9a28-b26dcd5596a9-/Bk0AfXSPfJMGK94R4G5cNDK+ZfUCA3u37cLzR5qyN8=-0"
+        }
+    }
+]

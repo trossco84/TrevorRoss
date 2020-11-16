@@ -1,0 +1,31 @@
+[
+    {
+      "Request": {
+        "OysterPieID": "OPCall3_BadSeed1",
+        "EnquiryPurpose": "A000",
+        "EnquiryAmount": 10000,    
+        "FirstName": "EIGHT ONE",            
+        "LastName": "TUCHAN",
+        "LastName2": "",
+        "LastName3": "",
+        "OtherName": "DO DO",
+        "Suffix": "",
+        "DOB": "02-01-1980",
+        "FirstIDNumber": "C2222300",
+        "FirstIDType": "ID",
+        "FirstIssueCountryCD": "HKG",
+        "SecondIDNumber": "",
+        "SecondIDType": "",
+        "SecondIssueCountryCD": "",
+        "AddressLine1": "TUCHAN EIGHT ONE ADDRESS LINE 1 TUCHAN EIGHT ONE",
+        "AddressLine2": "ADDRESS LINE 2",
+        "District": "",
+        "Territory": "",
+        "PhoneNumber": "",
+        "LoanTenor":8,
+        "MonthlyIncome": 25000,
+        "Occupation": "Driver",
+        "MonthlyRent": 1100
+      }
+    }
+  ]

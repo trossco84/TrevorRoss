@@ -1,0 +1,18 @@
+{
+	"input": {
+		"purchaser": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+    	"first_name": "KIMAONE",
+    	"last_name": "TURISK",
+    	"other_name": "",
+    	"first_id_number": "Z3333001",
+    	"first_id_type": "ID",
+    	"first_issue_country_cd": "HKG",
+    	"address_line1": "TURISK KIMA ONE ADDRESS LINE 1",
+    	"address_line2":"TURISK KIMA ONE ADDRESS LINE 2",
+    	"enquiry_amount":"100000",
+    	"enquiry_purpose":"A000",
+    	"dob":"1980-02-01"
+  },
+  "timeout": 0,
+  "expected_format": "application/json"
+}

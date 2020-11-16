@@ -1,0 +1,191 @@
+[
+    {
+        "TUHKFormSection": {
+            "Metadata": {
+                "Client": "",
+                "ReportVendor": "",
+                "ReportName": "",
+                "ReportVersion": "",
+                "ReportEnvironment": "",
+                "MatchData": [],
+                "StalenessLookback": 0,
+                "TimeoutLength": 0,
+                "TraceID": ""
+            },
+            "Functions": {},
+            "InputParameters": {
+                "purchaser": "",
+                "user_reference": "",
+                "enquiry_amount": "",
+                "enquiry_purpose": "",
+                "last_name": "",
+                "last_name2": "",
+                "last_name3": "",
+                "first_name": "",
+                "other_name": "",
+                "suffix": "",
+                "dob": "",
+                "first_id_number": "",
+                "first_id_type": "",
+                "first_issue_country_cd": "",
+                "second_id_number": "",
+                "second_id_type": "",
+                "second_issue_country_cd": "",
+                "address_line1": "",
+                "address_line2": "",
+                "district": "",
+                "territory": "",
+                "phone_country_code": "",
+                "phone_area_code": "",
+                "home_phone": ""
+            },
+            "Response": {
+                "Name": [],
+                "Address": [
+                    {
+                        "SegmentTag": "",
+                        "Address1": "TestSubject",
+                        "Address2": "",
+                        "District": "",
+                        "Territory": "",
+                        "ReportedDate": ""
+                    }
+                ],
+                "Score": [
+                    {
+                        "SegmentTag": "",
+                        "ScoreType": "",
+                        "Score": "",
+                        "Grade": "",
+                        "Probability": "",
+                        "DisruptedInformation": "",
+                        "LimitedPerformanceHistory": ""
+                    }
+                ],
+                "Summary": [],
+                "CreditExposure": [
+                    {
+                        "SegmentTag": "",
+                        "TotalAccountsRevolving": 0,
+                        "TotalInstallmentAmount": 0.0,
+                        "TotalCreditLimit": 0.0,
+                        "TotalUsedCreditLimit": 700000.0,
+                        "TotalPastDueAmountRevolving": 0.0,
+                        "TotalAccountsTermLoan": 0,
+                        "TotalLoanAmount": 0.0,
+                        "TotalOutstandingBalance": -200000.0,
+                        "TotalPastDueAmountTermLoan": 0.0,
+                        "TotalCardInstallmentAmount": 0.0,
+                        "TotalCardLoanAmount": 0.0,
+                        "TotalCardTermOutstanding": 0.0
+                    }
+                ],
+                "Accounts": [],
+                "PastDueAccounts": [],
+                "OpenAccounts": [],
+                "WritSegments": [],
+                "PetitionSegments": [],
+                "EnquiryAlerts": []
+            },
+            "ResponseStructure": {
+                "Name": "",
+                "Address": "",
+                "Score": "",
+                "Summary": "",
+                "CreditExposure": "",
+                "Accounts": "",
+                "PastDueAccounts": "",
+                "OpenAccounts": "",
+                "WritSegments": "",
+                "PetitionSegments": "",
+                "EnquiryAlerts": ""
+            }
+        },
+        "Request": {
+            "OysterPieID": "TestCase",
+            "EnquiryPurpose": "",
+            "EnquiryAmount": 16000.0,
+            "FirstName": "CounterOffer",
+            "LastName": "",
+            "LastName2": "",
+            "LastName3": "",
+            "OtherName": "",
+            "Suffix": "",
+            "DOB": "",
+            "FirstIDNumber": "",
+            "FirstIDType": "",
+            "FirstIssueCountryCD": "",
+            "SecondIDNumber": "",
+            "SecondIDType": "",
+            "SecondIssueCountryCD": "",
+            "AddressLine1": "TestSubject",
+            "AddressLine2": "",
+            "District": "",
+            "Territory": "",
+            "PhoneNumber": "",
+            "LoanTenor": 12,
+            "MonthlyIncome": 11.0,
+            "Occupation": "Carpenter",
+            "MonthlyRent": 4000.0
+        },
+        "DeclineRules": {
+            "AddressMatch": true,
+            "EnquiryFree": true,
+            "PastDueA": true,
+            "PastDueB": true,
+            "PastDueC": true,
+            "PastTotalPastDue": 0.0,
+            "OpenAccount": true,
+            "OpenTotalPastDue": 0.0,
+            "WritIndicator": true,
+            "PetitionFree": true
+        },
+        "LoanInformation": {
+            "Requested": {
+                "LoanAmount": 16000.0,
+                "LoanTenor": 12,
+                "MaxTenor": 18,
+                "MinAmount": 10000.0,
+                "Approved": false,
+                "Possible": true
+            },
+            "Applicant": {
+                "MonthlyIncome": 31900.0,
+                "TotalUsedCreditLimit": 700000.0,
+                "TotalOutstandingBalanceOfCardLoans": 0.0,
+                "TotalInstallmentAmount": 0.0,
+                "MonthlyRent": 4000.0,
+                "MonthlyContribution": 1500.0,
+                "TotalOutstandingBalance": -200000.0,
+                "MaximumDTIM": 16,
+                "MonthlyInterest": 0.026
+            },
+            "Criteria": {},
+            "FinalOffer": {
+                "Decision": "CounterOffer",
+                "OfferCheck": true,
+                "FinalAmount": 10000.0,
+                "FinalTenor": 12,
+                "MonthlyInstallment": 1093.3333333333335
+            }
+        },
+        "Response": {
+            "Decision": "Counter Offer",
+            "Reasons": [
+                "Counter Offer Test Subject"
+            ],
+            "LoanOffer": {
+                "Type": "Counter Offer",
+                "Amount": 10000.0,
+                "Tenor": 12,
+                "MonthlyPayment": 1093.3333333333333,
+                "MonthlyInterest": 0.026,
+                "UpfrontInterest": 0.01,
+                "TotalInterest": 3120.0
+            }
+        },
+        "Tracing": {
+            "TraceID": "085480f0-f3ac-4077-8407-4ffdc3d810e5-KyBTdn4hHM8ruU3aU1U45BtRaGQfHF1s3q0/dfMq3oY=-0"
+        }
+    }
+]

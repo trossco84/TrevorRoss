@@ -1,0 +1,1 @@
+[{"Request": {"FirstName": "Test", "LastName": "User", "DOB": "01-01-1900", "SSN": "123456789", "CreditScore": 650, "Married": true}, "Response": {"ConnectionSuccessful": true, "CreditScore": 650, "Decision": "Approved"}}]

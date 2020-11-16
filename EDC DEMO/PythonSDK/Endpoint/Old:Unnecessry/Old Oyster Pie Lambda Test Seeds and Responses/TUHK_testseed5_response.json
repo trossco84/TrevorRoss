@@ -1,0 +1,554 @@
+{
+    "header_segment": {
+        "segment_tag": "TUEF",
+        "version": "10",
+        "user_reference": "                         ",
+        "subscriber_code": "FF2562070",
+        "subject_return_code": "1",
+        "enquiry_control_number": "117175157"
+    },
+    "data_segment": [
+        {
+            "name_segment": {
+                "segment_tag": "N01",
+                "last_name1": "TURISK",
+                "first_name": "KIMAONE",
+                "other_name": "EMPTY",
+                "dob": "01021980",
+                "id": "Z3333001"
+            },
+            "address_segments": [
+                {
+                    "segment_tag": "A01",
+                    "address_line1": "NO. 325A HA WO CHE VILLEGE",
+                    "address_line2": "SHATIN          NEW TERRITORIES      SHATIN HONGKO",
+                    "reported_date": "04062020"
+                },
+                {
+                    "segment_tag": "A02",
+                    "address_line1": "RM 1 1/F 1 1",
+                    "address_line2": "1",
+                    "reported_date": "28052018"
+                },
+                {
+                    "segment_tag": "A03",
+                    "address_line1": "TURISK KIMA ONE",
+                    "address_line2": "TURISK KIMA ONE",
+                    "district": "HK",
+                    "reported_date": "04092017"
+                },
+                {
+                    "segment_tag": "A04",
+                    "address_line1": "TURISK KIMA ONE ADDR, TURISK KIMA ONE ADDRESS",
+                    "address_line2": "LINE 2,  HEI LING CHAU",
+                    "district": "HK",
+                    "territory": "HONGKONG",
+                    "reported_date": "29062016"
+                }
+            ],
+            "score_segments": [
+                {
+                    "segment_tag": "S01",
+                    "score_type": "CM01",
+                    "score": "999",
+                    "grade": "YY",
+                    "probability": "999.99",
+                    "disrupted_information": "-",
+                    "limited_performance_history": "-"
+                }
+            ],
+            "summary_segments": [
+                {
+                    "segment_tag": "S01",
+                    "safe_scan_alert": "2",
+                    "watch_list_alert": "0",
+                    "new_accnt_alert": "---",
+                    "closed_accounts": "0",
+                    "related_parties": "0",
+                    "alias_name": "0",
+                    "past_due_account": "6",
+                    "open_accounts": "22",
+                    "public_records": "0",
+                    "enquiry_alert": "28"
+                }
+            ],
+            "credit_summary_segments": [],
+            "credit_exposure_segments": [],
+            "account_segments": [],
+            "writ_segments": [],
+            "petition_segments": [],
+            "enquiry_alert_segments": []
+        },
+        {
+            "name_segment": {
+                "segment_tag": "S01",
+                "last_name1": "CHAN",
+                "first_name": "TEST 01",
+                "dob": "00001971",
+                "id": "Z3333001"
+            },
+            "address_segments": [
+                {
+                    "segment_tag": "A01",
+                    "address_line1": "FLAT A 2/F WOODLAND CREST",
+                    "address_line2": "NO.33 TIN PING ROAD",
+                    "district": "SHEUNG SHUI",
+                    "territory": "NT",
+                    "reported_date": "19112008"
+                }
+            ],
+            "score_segments": [],
+            "summary_segments": [],
+            "credit_summary_segments": [],
+            "credit_exposure_segments": [],
+            "account_segments": [],
+            "writ_segments": [],
+            "petition_segments": [],
+            "enquiry_alert_segments": []
+        },
+        {
+            "name_segment": {
+                "segment_tag": "S02",
+                "last_name1": "TUHO",
+                "first_name": "KIMAONE",
+                "dob": "01021980",
+                "id": "Z3333001"
+            },
+            "address_segments": [
+                {
+                    "segment_tag": "A01",
+                    "address_line1": "TURISK KIMA ONE ADDRESS LINE 1",
+                    "address_line2": "TURISK KIMA ONE ADDRESS LINE 2",
+                    "reported_date": "15062012"
+                }
+            ],
+            "score_segments": [],
+            "summary_segments": [],
+            "credit_summary_segments": [],
+            "credit_exposure_segments": [
+                {
+                    "segment_tag": "E01",
+                    "total_accounts_revolving": "20",
+                    "total_installment_amount": "181226",
+                    "total_credit_limit": "1307128",
+                    "total_past_due_amount_revolving": "210636",
+                    "total_accounts_termloan": "7",
+                    "total_loan_amount": "5416501",
+                    "credit_exposure_type": "I"
+                },
+                {
+                    "segment_tag": "E02",
+                    "total_accounts_revolving": "1",
+                    "credit_exposure_type": "I"
+                }
+            ],
+            "account_segments": [
+                {
+                    "segment_tag": "D001",
+                    "account_status": "BANK",
+                    "account_type": "W",
+                    "account_assoc_code": "5710",
+                    "currency_code": "HI",
+                    "opened_date": "29112013",
+                    "past_due_amount": "210636"
+                },
+                {
+                    "segment_tag": "D002",
+                    "account_status": "BANK",
+                    "account_type": "DA",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "04052008",
+                    "terms": "48"
+                },
+                {
+                    "segment_tag": "D003",
+                    "account_status": "BANK",
+                    "account_type": "BW",
+                    "account_assoc_code": "1100",
+                    "currency_code": "HI",
+                    "opened_date": "08012011",
+                    "terms": "120"
+                },
+                {
+                    "segment_tag": "D004",
+                    "account_status": "BANK",
+                    "account_type": "W",
+                    "account_assoc_code": "5100",
+                    "currency_code": "HI",
+                    "opened_date": "07112010"
+                },
+                {
+                    "segment_tag": "D005",
+                    "account_status": "BANK",
+                    "account_type": "BW",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "07112010"
+                },
+                {
+                    "segment_tag": "D006",
+                    "account_status": "CARDS",
+                    "account_type": "DA",
+                    "account_assoc_code": "4100",
+                    "currency_code": "HI",
+                    "opened_date": "01111995"
+                },
+                {
+                    "segment_tag": "O001",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O002",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O003",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O004",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O005",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O006",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O007",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O008",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O009",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O010",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O011",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O012",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O013",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O014",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O015",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "5700",
+                    "currency_code": "HI",
+                    "opened_date": "01012007"
+                },
+                {
+                    "segment_tag": "O016",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "01012007",
+                    "terms": "180"
+                },
+                {
+                    "segment_tag": "O017",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "01012007",
+                    "terms": "180"
+                },
+                {
+                    "segment_tag": "O018",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "18072013",
+                    "terms": "48"
+                },
+                {
+                    "segment_tag": "O019",
+                    "account_status": "BANK",
+                    "account_type": "A",
+                    "account_assoc_code": "3100",
+                    "currency_code": "HI",
+                    "opened_date": "07012012",
+                    "terms": "149"
+                },
+                {
+                    "segment_tag": "O020",
+                    "account_status": "CARDS",
+                    "account_type": "A",
+                    "account_assoc_code": "5500",
+                    "currency_code": "HI",
+                    "opened_date": "28051990"
+                },
+                {
+                    "segment_tag": "O021",
+                    "account_status": "CARDS",
+                    "account_type": "A",
+                    "account_assoc_code": "4100",
+                    "currency_code": "HI",
+                    "opened_date": "01031991"
+                },
+                {
+                    "segment_tag": "O022",
+                    "account_status": "FINANCE ",
+                    "account_type": "A",
+                    "account_assoc_code": "3600",
+                    "currency_code": "HI",
+                    "opened_date": "16082011",
+                    "terms": "10"
+                }
+            ],
+            "writ_segments": [],
+            "petition_segments": [],
+            "enquiry_alert_segments": [
+                {
+                    "segment_tag": "E001",
+                    "date": "04062020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E002",
+                    "date": "21052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E003",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E004",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E005",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E006",
+                    "date": "13052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E007",
+                    "date": "04052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E008",
+                    "date": "04052020",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E009",
+                    "date": "24042020",
+                    "type": "1100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E010",
+                    "date": "12122019",
+                    "type": "5200",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E011",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E012",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E013",
+                    "date": "15112019",
+                    "type": "5300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E014",
+                    "date": "16102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E015",
+                    "date": "16102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E016",
+                    "date": "15102019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E017",
+                    "date": "19092019",
+                    "type": "5700",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E018",
+                    "date": "16092019",
+                    "type": "3100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E019",
+                    "date": "22072019",
+                    "type": "5710",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E020",
+                    "date": "22072019",
+                    "type": "5710",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E021",
+                    "date": "22072019",
+                    "type": "5710",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E022",
+                    "date": "22072019",
+                    "type": "5710",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E023",
+                    "date": "30052019",
+                    "type": "5100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E024",
+                    "date": "28022019",
+                    "type": "5100",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E025",
+                    "date": "06112018",
+                    "type": "5710",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E026",
+                    "date": "24102018",
+                    "type": "3300",
+                    "purpose": "A"
+                },
+                {
+                    "segment_tag": "E027",
+                    "date": "02102018",
+                    "type": "3101",
+                    "purpose": "R"
+                },
+                {
+                    "segment_tag": "E028",
+                    "date": "02082018",
+                    "type": "2200",
+                    "purpose": "A"
+                }
+            ]
+        }
+    ],
+    "key": "transunion_hk/b47d70e6-b5b3-4ab7-9180-3a7635b7aea2"
+}

@@ -1,0 +1,863 @@
+[
+    {
+        "TUHKFormSection": {
+            "Metadata": {
+                "Client": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+                "ReportVendor": "transunion_hk",
+                "ReportName": "transunion",
+                "ReportVersion": "2.10.6",
+                "ReportEnvironment": "trial",
+                "MatchData": [
+                    "Name",
+                    "Report"
+                ],
+                "StalenessLookback": 0,
+                "TimeoutLength": 10000,
+                "TraceID": "f86729a0-9365-4b4b-85e6-52ba6b167e7f-E3EHMh09QOsbrTWFnLwti0p6G1U4xwyQ95j2M+9wzDQ=-0"
+            },
+            "Functions": {},
+            "InputParameters": {
+                "purchaser": "CFSH880FBBBA9B47ABB8026BE52C798E3755",
+                "user_reference": "OPCall3_BadSeed1",
+                "enquiry_amount": "10000",
+                "enquiry_purpose": "A000",
+                "last_name": "TUMAK",
+                "last_name2": "",
+                "last_name3": "",
+                "first_name": "FLIMITED HISTORY",
+                "other_name": "DO DO",
+                "suffix": "",
+                "dob": "02-13-1989",
+                "first_id_number": "B2979301",
+                "first_id_type": "ID",
+                "first_issue_country_cd": "HKG",
+                "second_id_number": "",
+                "second_id_type": "",
+                "second_issue_country_cd": "",
+                "address_line1": "TUMAK DO DO ONE LINE 1",
+                "address_line2": "TUMAK DO DO ONE LINE 2",
+                "district": "",
+                "territory": "",
+                "phone_country_code": "",
+                "phone_area_code": "",
+                "home_phone": ""
+            },
+            "Response": {
+                "Name": [
+                    {
+                        "SegmentTag": "N01",
+                        "LastName": "TUMAK",
+                        "FirstName": "",
+                        "OtherName": "DO DO",
+                        "DOB": "13021989",
+                        "ID": "B2979301"
+                    }
+                ],
+                "Address": [
+                    {
+                        "SegmentTag": "A01",
+                        "Address1": "FLAT 1 6/F TUMAK DO DO TUMAK DO DO ONE LINE 2",
+                        "Address2": "KOWLOON",
+                        "District": "HOMANTIN",
+                        "Territory": "HONG KONG",
+                        "ReportedDate": "27082020"
+                    },
+                    {
+                        "SegmentTag": "A02",
+                        "Address1": "FLAT 11 11/F TUMAK DO DO ONE LINE 1 TUMAK DO DO",
+                        "Address2": "ONE LINE 2",
+                        "District": "ADMIRALTY",
+                        "Territory": "HONG KONG",
+                        "ReportedDate": "20082020"
+                    },
+                    {
+                        "SegmentTag": "A03",
+                        "Address1": "INE 2REET",
+                        "Address2": "INE 2REET",
+                        "District": "",
+                        "Territory": "HONG KONG ISLAND",
+                        "ReportedDate": "29082019"
+                    },
+                    {
+                        "SegmentTag": "A04",
+                        "Address1": "BUILDING STREET",
+                        "Address2": "",
+                        "District": "",
+                        "Territory": "HONG KONG ISLAND",
+                        "ReportedDate": "29082019"
+                    }
+                ],
+                "Score": [
+                    {
+                        "SegmentTag": "S01",
+                        "ScoreType": "CM01",
+                        "Score": "999",
+                        "Grade": "YY",
+                        "Probability": "999.99",
+                        "DisruptedInformation": "-",
+                        "LimitedPerformanceHistory": "-"
+                    }
+                ],
+                "Summary": [
+                    {
+                        "SegmentTag": "S01",
+                        "SafeScanAlert": "0",
+                        "WatchListAlert": "0",
+                        "NewAccountAlert": "---",
+                        "ClosedAccounts": "0",
+                        "RelatedParties": "0",
+                        "AliasName": "0",
+                        "PastDueAccount": "0",
+                        "OpenAccount": "26",
+                        "PublicRecords": "6",
+                        "EnquiryAlert": "999",
+                        "MortgageAsABorrower": "",
+                        "MortgageAsAGuarantor": "",
+                        "MortgageAsAMortgagor": ""
+                    }
+                ],
+                "CreditExposure": [
+                    {
+                        "SegmentTag": "E01",
+                        "TotalAccountsRevolving": 22,
+                        "TotalInstallmentAmount": 61000.0,
+                        "TotalCreditLimit": 440000.0,
+                        "TotalUsedCreditLimit": 0.0,
+                        "TotalPastDueAmountRevolving": 0.0,
+                        "TotalAccountsTermLoan": 4,
+                        "TotalLoanAmount": 7520000.0,
+                        "TotalOutstandingBalance": 0.0,
+                        "TotalPastDueAmountTermLoan": 0.0,
+                        "TotalCardInstallmentAmount": 0.0,
+                        "TotalCardLoanAmount": 0.0,
+                        "TotalCardTermOutstanding": 0.0
+                    }
+                ],
+                "Accounts": [
+                    {
+                        "SegmentTag": "O001",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5300",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O002",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O003",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O004",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O005",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O006",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O007",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O008",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O009",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O010",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O011",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O012",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O013",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O014",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O015",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O016",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O017",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O018",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O019",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O020",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O021",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O022",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5710",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O023",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O024",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O025",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012016",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 12
+                    },
+                    {
+                        "SegmentTag": "O026",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012016",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    }
+                ],
+                "PastDueAccounts": [],
+                "OpenAccounts": [
+                    {
+                        "SegmentTag": "O001",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5300",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O002",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O003",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O004",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O005",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O006",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O007",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O008",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O009",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O010",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O011",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O012",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O013",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O014",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O015",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O016",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O017",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O018",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O019",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O020",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5700",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O021",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O022",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5710",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    },
+                    {
+                        "SegmentTag": "O023",
+                        "AccountStatus": "FINANCE ",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O024",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012007",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 180
+                    },
+                    {
+                        "SegmentTag": "O025",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "3100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012016",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 12
+                    },
+                    {
+                        "SegmentTag": "O026",
+                        "AccountStatus": "BANK",
+                        "AccountType": "A",
+                        "AccountAssocCode": "5100",
+                        "CurrencyCode": "HI",
+                        "OpenedDate": "01012016",
+                        "ClosedDate": "",
+                        "PastDueAmount": 0.0,
+                        "Terms": 0
+                    }
+                ],
+                "WritSegments": [
+                    {
+                        "WritWithPotentialRelevance": "41111062",
+                        "WritStatusDate": "",
+                        "WritFileDate": "15052018",
+                        "PetitionWithPotentialRelevance": ""
+                    }
+                ],
+                "PetitionSegments": [
+                    {
+                        "SegmentTag": "M001",
+                        "PetitionWithPotentialRelevance": "41111072"
+                    }
+                ],
+                "EnquiryAlerts": [
+                    {
+                        "EnquiryDate": "31082020",
+                        "EnquiryType": "5710",
+                        "EnquiryPurpose": "A"
+                    },
+                    {
+                        "EnquiryDate": "27082020",
+                        "EnquiryType": "3100",
+                        "EnquiryPurpose": "A"
+                    },
+                    {
+                        "EnquiryDate": "20082020",
+                        "EnquiryType": "5710",
+                        "EnquiryPurpose": "A"
+                    },
+                    {
+                        "EnquiryDate": "10072020",
+                        "EnquiryType": "3100",
+                        "EnquiryPurpose": "A"
+                    },
+                    {
+                        "EnquiryDate": "23062020",
+                        "EnquiryType": "3100",
+                        "EnquiryPurpose": "A"
+                    },
+                    {
+                        "EnquiryDate": "21052020",
+                        "EnquiryType": "3100",
+                        "EnquiryPurpose": "A"
+                    }
+                ]
+            },
+            "ResponseStructure": {
+                "Name": "to_array(data_segment[].name_segment[])[].{SegmentTag:segment_tag,LastName:last_name1,FirstName:first_name1,OtherName:other_name,DOB:dob,ID:id}",
+                "Address": "to_array(data_segment[].address_segments[])[].{SegmentTag:segment_tag,Address1:address_line1,Address2:address_line2,District:district,Territory:territory,ReportedDate:reported_date}",
+                "Score": "to_array(data_segment[].score_segments[])[].{SegmentTag:segment_tag,ScoreType:score_type,Score:score,Grade:grade,Probability:probability,DisruptedInformation:disrupted_information,LimitedPerformanceHistory:limited_performance_history}",
+                "Summary": "to_array(data_segment[].summary_segments[])[].{SegmentTag:segment_tag,SafeScanAlert:safe_scan_alert,WatchListAlert:watch_list_alert,NewAccountAlert:new_accnt_alert,ClosedAccounts:closed_accounts,RelatedParties:related_parties,AliasName:alias_name,PastDueAccount:past_due_account,OpenAccount:open_accounts,PublicRecords:public_records,EnquiryAlert:enquiry_alert,MortgageAsABorrower:mortgage_as_a_borrower,MortgageAsAGuarantor:mortgage_as_a_guarantor,MortgageAsAMortgager:mortgage_as_a_mortgager}",
+                "CreditExposure": "to_array(data_segment[].credit_exposure_segments[])[].{SegmentTag:segment_tag,TotalAccountsRevolving:total_accounts_revolving,TotalInstallmentAmount:total_installment_amount,TotalCreditLimit:total_credit_limit,TotalUsedCreditLimit:total_used_creddit_limit,TotalPastDueAmountRevolving:total_past_due_amount_revolving,TotalAccountsTermLoan:total_accounts_termloan,TotalLoanAmount:total_loan_amount,TotalOutstandingBalance:total_outstanding_balance,TotalPastDueAmountTermLoan:total_past_due_amount_termloan,TotalCardInstallmentAmount:total_card_installment_amount,TotalCardLoanAmount:total_card_loan_amount,TotalCardTermOutstanding:total_card_term_outstanding}",
+                "Accounts": "to_array(data_segment[].account_segments[])[].{SegmentTag:segment_tag,AccountStatus:account_status,AccountType:account_type,AccountAssocCode:account_assoc_code,CurrencyCode:currency_code,OpenedDate:opened_date,ClosedDate:closed_date,PastDueAmount:past_due_amount,Terms:terms}",
+                "PastDueAccounts": "to_array(data_segment[].account_segments[?\"account_type\"=='DA' || \"account_type\"=='L' || \"account_type\"=='W' || \"account_type\"=='BW'])[].{SegmentTag:segment_tag,AccountStatus:account_status,AccountType:account_type,AccountAssocCode:account_assoc_code,CurrencyCode:currency_code,OpenedDate:opened_date,ClosedDate:closed_date,PastDueAmount:past_due_amount,Terms:terms}",
+                "OpenAccounts": "to_array(data_segment[].account_segments[?\"account_type\"=='A' || \"account_type\"=='S' || \"account_type\"=='I'])[].{SegmentTag:segment_tag,AccountStatus:account_status,AccountType:account_type,AccountAssocCode:account_assoc_code,CurrencyCode:currency_code,OpenedDate:opened_date,ClosedDate:closed_date,PastDueAmount:past_due_amount,Terms:terms}",
+                "WritSegments": "to_array(data_segment[].writ_segments[])[].{WritWithPotentialRelevance:writ_with_potential_relevance,WritStatusDate:status_date,WritFileDate:file_date}",
+                "PetitionSegments": "to_array(data_segment[].petition_segments[])[].{SegmentTag:segment_tag,PetitionWithPotentialRelevance:petition_with_potential_relevance}",
+                "EnquiryAlerts": "to_array(data_segment[].enquiry_alert_segments[] | [?\"purpose\"=='A'] | [?\"type\"=='3100' || \"type\" == '3200' || \"type\" == '3300' || \"type\" == '3400' || \"type\" == '5700' || \"type\" == '5710' || \"type\" == '5720' ||  \"type\" == '6300' || \"type\" == '2100' || \"type\" == '2300'])[0:6].{EnquiryDate:date,EnquiryType:type,EnquiryPurpose:purpose}"
+            }
+        },
+        "Request": {
+            "OysterPieID": "OPCall3_BadSeed1",
+            "EnquiryPurpose": "A000",
+            "EnquiryAmount": 10000.0,
+            "FirstName": "FLIMITED HISTORY",
+            "LastName": "TUMAK",
+            "LastName2": "",
+            "LastName3": "",
+            "OtherName": "DO DO",
+            "Suffix": "",
+            "DOB": "02-13-1989",
+            "FirstIDNumber": "B2979301",
+            "FirstIDType": "ID",
+            "FirstIssueCountryCD": "HKG",
+            "SecondIDNumber": "",
+            "SecondIDType": "",
+            "SecondIssueCountryCD": "",
+            "AddressLine1": "TUMAK DO DO ONE LINE 1",
+            "AddressLine2": "TUMAK DO DO ONE LINE 2",
+            "District": "",
+            "Territory": "",
+            "PhoneNumber": "",
+            "LoanTenor": 1,
+            "MonthlyIncome": 23000.0,
+            "Occupation": "Cleaner",
+            "MonthlyRent": 1000.0
+        },
+        "DeclineRules": {
+            "AddressMatch": false,
+            "EnquiryFree": true,
+            "PastDueA": true,
+            "PastDueB": true,
+            "PastDueC": true,
+            "PastTotalPastDue": 0.0,
+            "OpenAccount": true,
+            "OpenTotalPastDue": 0.0,
+            "WritIndicator": false,
+            "PetitionFree": false
+        },
+        "LoanInformation": {
+            "Requested": {
+                "LoanAmount": 0.0,
+                "LoanTenor": 0,
+                "MaxTenor": 0,
+                "MinAmount": 0.0,
+                "Approved": false,
+                "Possible": false
+            },
+            "Applicant": {
+                "MonthlyIncome": 16842.0,
+                "TotalUsedCreditLimit": 0.0,
+                "TotalOutstandingBalanceOfCardLoans": 0.0,
+                "TotalInstallmentAmount": 0.0,
+                "MonthlyRent": 0.0,
+                "MonthlyContribution": 0.0,
+                "TotalOutstandingBalance": 0.0,
+                "MaximumDTIM": 0,
+                "MonthlyInterest": 0.0
+            },
+            "Criteria": {},
+            "FinalOffer": {
+                "Decision": "",
+                "OfferCheck": false,
+                "FinalAmount": 0.0,
+                "FinalTenor": 0,
+                "MonthlyInstallment": 0.0
+            }
+        },
+        "Response": {
+            "Decision": "Decline",
+            "Reasons": [
+                "Address does not match reported",
+                "Recent Writ with Potential Relevance Reported",
+                "Petition with Potential Relevance Exists"
+            ],
+            "LoanOffer": {
+                "Type": "",
+                "Amount": 0.0,
+                "Tenor": 0,
+                "MonthlyPayment": 0.0,
+                "MonthlyInterest": 0.0,
+                "UpfrontInterest": 0.0,
+                "TotalInterest": 0.0
+            }
+        },
+        "Tracing": {
+            "TraceID": "f86729a0-9365-4b4b-85e6-52ba6b167e7f-E3EHMh09QOsbrTWFnLwti0p6G1U4xwyQ95j2M+9wzDQ=-0"
+        }
+    }
+]

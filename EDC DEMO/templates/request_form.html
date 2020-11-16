@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<h1>Sample Request Form</h1>
+<p>{{ value }}</p>
+{% endblock %}
+
+{% block body%}
+<div class="container" style="background-color: skyblue;">
+    <form action="/request_form" method = "POST">
+        <label>First Name</label>
+        <input type="text" name = "firstname" placeholder="John">
+        <label>Last Name</label>
+        <input type="text" name = "lastname" placeholder="Smith">
+        <label>SSN</label>
+        <select id="chosen_ssn" name="ssn">
+            <option value = "BadIDV">BadIDVSSN</option>
+            <option value = "BadFraud">BadFraudSSN</option>
+            <option value = "BadCredit">BadCreditSSN</option>
+            <option value = "AllClear">AllClearSSN</option>
+        </select>
+        <input type="hidden" name="flow" value= {{ value }}>
+        <p></p>
+        <label>Submit Request</label>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}

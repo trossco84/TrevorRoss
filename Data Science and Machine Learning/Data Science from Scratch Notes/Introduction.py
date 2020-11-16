@@ -235,4 +235,35 @@ def recommend_based_on_interests(input_user3):
                 shared_users.append(user["name"])
         print(f'{user_interest}: ',', '.join(shared_users))
 
-recommend_based_on_interests(users[0])
+# recommend_based_on_interests(users[0])
+
+#Salaries and Tenures
+salaries_and_tenures = [(83000, 8.7),(88000, 8.1),(48000, 0.7),(76000, 6),(69000, 6.5),(76000, 7.5),(60000, 2.5),(83000, 10),(48000, 1.9),(63000, 4.2)]
+
+#very simple, badly created plot of the data (plots covered later)
+import matplotlib.pyplot as pyplot
+import seaborn as sns 
+sns.scatterplot(x=[z[1] for z in salaries_and_tenures], y=[z[0] for z in salaries_and_tenures])
+
+#bucket salaries
+list0_2 = []
+list2_5 = []
+list5_x = []
+yikeslist=[]
+for tup in salaries_and_tenures:
+    if tup[1]<2:
+        list0_2.append(tup[0])
+    elif (tup[1]>=2) and (tup[1]<5):
+        list2_5.append(tup[0])
+    elif tup[1]>=5:
+        list5_x.append(tup[0])
+    else:
+        yikeslist.append(tup)
+lessthan2 = sum(list0_2)/len(list0_2)
+twoto5 = sum(list2_5)/len(list2_5)
+fiveandup = sum(list5_x)/len(list5_x)
+printdict={'less than two':lessthan2,'two to five':twoto5,'five and up':fiveandup}
+print('average salaries:')
+print(printdict)
+
+    

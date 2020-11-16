@@ -1,0 +1,1394 @@
+[
+    {
+        "LexisNexisRiskViewScoresAndAttributes": {
+            "Metadata": {
+                "Client": "BYTEA565ABCB8B304CF29AC301EF2F1F89CE",
+                "ReportVendor": "lexisnexis",
+                "ReportName": "riskview",
+                "ReportVersion": "5.0",
+                "ReportEnvironment": "production",
+                "MatchData": [
+                    "Name",
+                    "Report"
+                ],
+                "StalenessLookback": 90,
+                "TimeoutLength": 10000,
+                "TraceID": "fa8c0ca1-2f90-4f9d-ba35-f519fac27d72-rtklwP+HsmR2h/EH22zWfTxC7g2Y8ztnqIlZvUr0Gv4=-0"
+            },
+            "Functions": {},
+            "InputParameters": {
+                "first_name": "Jayesm",
+                "middle_name": "",
+                "last_name": "Choski",
+                "dob": "01-01-1956",
+                "ssn": "666206834",
+                "home_phone": "",
+                "app_id": "TestSeed1",
+                "address_line1": "24334 Daisy ",
+                "address_line2": "",
+                "city": "Anchorage",
+                "state": "AK",
+                "zip": "99506",
+                "email": ""
+            },
+            "Response": {
+                "Attributes": {
+                    "InputProvidedFirstName": "1",
+                    "InputProvidedLastName": "1",
+                    "InputProvidedStreetAddress": "1",
+                    "InputProvidedCity": "1",
+                    "InputProvidedState": "1",
+                    "InputProvidedZipCode": "1",
+                    "InputProvidedSSN": "3",
+                    "InputProvidedDateofBirth": "7",
+                    "InputProvidedPhone": "0",
+                    "InputProvidedLexID": "0",
+                    "SubjectRecordTimeOldest": 413.0,
+                    "SubjectRecordTimeNewest": 413.0,
+                    "SubjectNewestRecord12Month": "0",
+                    "SubjectActivityIndex03Month": "-1",
+                    "SubjectActivityIndex06Month": "-1",
+                    "SubjectActivityIndex12Month": "-1",
+                    "SubjectAge": -1.0,
+                    "SubjectDeceased": "1",
+                    "SubjectSSNCount": 1.0,
+                    "SubjectStabilityIndex": "-1",
+                    "SubjectStabilityPrimaryFactor": "C13",
+                    "SubjectAbilityIndex": "-1",
+                    "SubjectAbilityPrimaryFactor": "A42",
+                    "SubjectWillingnessIndex": "-1",
+                    "SubjectWillingnessPrimaryFactor": "C12",
+                    "ConfirmationSubjectFound": "1",
+                    "ConfirmationInputName": "0",
+                    "ConfirmationInputDOB": "0",
+                    "ConfirmationInputSSN": "1",
+                    "ConfirmationInputAddress": "0",
+                    "SourceNonDerogProfileIndex": "0",
+                    "SourceNonDerogCount": 0.0,
+                    "SourceNonDerogCount03Month": 0.0,
+                    "SourceNonDerogCount06Month": 0.0,
+                    "SourceNonDerogCount12Month": 0.0,
+                    "SourceCredHeaderTimeOldest": -1.0,
+                    "SourceCredHeaderTimeNewest": -1.0,
+                    "SourceVoterRegistration": "0",
+                    "EducationAttendance": "0",
+                    "EducationEvidence": "0",
+                    "EducationProgramAttended": "0",
+                    "EducationInstitutionPrivate": "-1",
+                    "EducationInstitutionRating": "0",
+                    "ProfLicCount": 0.0,
+                    "ProfLicTypeCategory": "-1",
+                    "BusinessAssociation": "0",
+                    "BusinessAssociationIndex": "0",
+                    "BusinessAssociationTimeOldest": -1.0,
+                    "BusinessTitleLeadership": "-1",
+                    "AssetIndex": "-1",
+                    "AssetIndexPrimaryFactor": "A42",
+                    "AssetOwnership": "0",
+                    "AssetProp": "0",
+                    "AssetPropIndex": "0",
+                    "AssetPropEverCount": 0.0,
+                    "AssetPropCurrentCount": 0.0,
+                    "AssetPropCurrentTaxTotal": -1.0,
+                    "AssetPropPurchaseCount12Month": 0.0,
+                    "AssetPropPurchaseTimeOldest": -1.0,
+                    "AssetPropPurchaseTimeNewest": -1.0,
+                    "AssetPropNewestMortgageType": "-1",
+                    "AssetPropEverSoldCount": 0.0,
+                    "AssetPropSoldCount12Month": 0.0,
+                    "AssetPropSaleTimeOldest": -1.0,
+                    "AssetPropSaleTimeNewest": -1.0,
+                    "AssetPropNewestSalePrice": -1.0,
+                    "AssetPropSalePurchaseRatio": 0.0,
+                    "AssetPersonal": "0",
+                    "AssetPersonalCount": 0.0,
+                    "PurchaseActivityIndex": "0",
+                    "PurchaseActivityCount": -1.0,
+                    "PurchaseActivityDollarTotal": -1.0,
+                    "DerogSeverityIndex": "0",
+                    "DerogCount": 0.0,
+                    "DerogCount12Month": 0.0,
+                    "DerogTimeNewest": -1.0,
+                    "CriminalFelonyCount": 0.0,
+                    "CriminalFelonyCount12Month": 0.0,
+                    "CriminalFelonyTimeNewest": -1.0,
+                    "CriminalNonFelonyCount": 0.0,
+                    "CriminalNonFelonyCount12Month": 0.0,
+                    "CriminalNonFelonyTimeNewest": -1.0,
+                    "EvictionCount": 0.0,
+                    "EvictionCount12Month": 0.0,
+                    "EvictionTimeNewest": -1.0,
+                    "LienJudgmentSeverityIndex": "0",
+                    "LienJudgmentCount": 0.0,
+                    "LienJudgmentCount12Month": 0.0,
+                    "LienJudgmentSmallClaimsCount": 0.0,
+                    "LienJudgmentCourtCount": 0.0,
+                    "LienJudgmentTaxCount": 0.0,
+                    "LienJudgmentForeclosureCount": 0.0,
+                    "LienJudgmentOtherCount": 0.0,
+                    "LienJudgmentTimeNewest": -1.0,
+                    "LienJudgmentDollarTotal": 0.0,
+                    "BankruptcyCount": 0.0,
+                    "BankruptcyCount24Month": 0.0,
+                    "BankruptcyTimeNewest": -1.0,
+                    "BankruptcyChapter": "0",
+                    "BankruptcyStatus": "0",
+                    "BankruptcyDismissed24Month": "0",
+                    "ShortTermLoanRequest": "0",
+                    "ShortTermLoanRequest12Month": "0",
+                    "ShortTermLoanRequest24Month": "0",
+                    "InquiryAuto12Month": "0",
+                    "InquiryBanking12Month": "0",
+                    "InquiryTelcom12Month": "0",
+                    "InquiryNonShortTerm12Month": "0",
+                    "InquiryShortTerm12Month": "0",
+                    "InquiryCollections12Month": "0",
+                    "SSNSubjectCount": 0.0,
+                    "SSNDeceased": "1",
+                    "SSNDateLowIssued": "19580101",
+                    "SSNProblems": "5",
+                    "AddrOnFileCount": 0.0,
+                    "AddrOnFileCorrectional": "0",
+                    "AddrOnFileCollege": "0",
+                    "AddrOnFileHighRisk": "0",
+                    "AddrInputTimeOldest": -1.0,
+                    "AddrInputTimeNewest": -1.0,
+                    "AddrInputLengthOfRes": -1.0,
+                    "AddrInputSubjectCount": -1.0,
+                    "AddrInputMatchIndex": "0",
+                    "AddrInputSubjectOwned": "-1",
+                    "AddrInputDeedMailing": "-1",
+                    "AddrInputOwnershipIndex": "0",
+                    "AddrInputPhoneService": "0",
+                    "AddrInputPhoneCount": 0.0,
+                    "AddrInputDwellType": "-1",
+                    "AddrInputDwellTypeIndex": "0",
+                    "AddrInputDelivery": "-1",
+                    "AddrInputTimeLastSale": -1.0,
+                    "AddrInputLastSalePrice": -1.0,
+                    "AddrInputTaxValue": 0.0,
+                    "AddrInputTaxYr": "-1",
+                    "AddrInputTaxMarketValue": 0.0,
+                    "AddrInputAVMValue": 0.0,
+                    "AddrInputAVMValue12Month": 0.0,
+                    "AddrInputAVMRatio12MonthPrior": 0.0,
+                    "AddrInputAVMValue60Month": 0.0,
+                    "AddrInputAVMRatio60MonthPrior": 0.0,
+                    "AddrInputCountyRatio": 0.0,
+                    "AddrInputTractRatio": 0.0,
+                    "AddrInputBlockRatio": 0.0,
+                    "AddrInputProblems": "2",
+                    "AddrCurrentTimeOldest": 413.0,
+                    "AddrCurrentTimeNewest": 413.0,
+                    "AddrCurrentLengthOfRes": 1.0,
+                    "AddrCurrentSubjectOwned": "-1",
+                    "AddrCurrentDeedMailing": "-1",
+                    "AddrCurrentOwnershipIndex": "0",
+                    "AddrCurrentPhoneService": "0",
+                    "AddrCurrentDwellType": "-1",
+                    "AddrCurrentDwellTypeIndex": "0",
+                    "AddrCurrentTimeLastSale": -1.0,
+                    "AddrCurrentLastSalesPrice": -1.0,
+                    "AddrCurrentTaxValue": 0.0,
+                    "AddrCurrentTaxYr": "-1",
+                    "AddrCurrentTaxMarketValue": 0.0,
+                    "AddrCurrentAVMValue": 0.0,
+                    "AddrCurrentAVMValue12Month": 0.0,
+                    "AddrCurrentAVMRatio12MonthPrior": 0.0,
+                    "AddrCurrentAVMValue60Month": 0.0,
+                    "AddrCurrentAVMRatio60MonthPrior": 0.0,
+                    "AddrCurrentCountyRatio": 0.0,
+                    "AddrCurrentTractRatio": 0.0,
+                    "AddrCurrentBlockRatio": 0.0,
+                    "AddrCurrentCorrectional": "0",
+                    "AddrPreviousTimeOldest": -1.0,
+                    "AddrPreviousTimeNewest": -1.0,
+                    "AddrPreviousLengthOfRes": -1.0,
+                    "AddrPreviousSubjectOwned": "-1",
+                    "AddrPreviousOwnershipIndex": "5",
+                    "AddrPreviousDwellType": "-1",
+                    "AddrPreviousDwellTypeIndex": "0",
+                    "AddrPreviousCorrectional": "0",
+                    "AddrStabilityIndex": "2",
+                    "AddrChangeCount03Month": 0.0,
+                    "AddrChangeCount06Month": 0.0,
+                    "AddrChangeCount12Month": 0.0,
+                    "AddrChangeCount24Month": 0.0,
+                    "AddrChangeCount60Month": 0.0,
+                    "AddrLastMoveTaxRatioDiff": -1.0,
+                    "AddrLastMoveEconTrajectory": "1",
+                    "AddrLastMoveEconTrajectoryIndex": "5",
+                    "PhoneInputProblems": "-1",
+                    "PhoneInputSubjectCount": -1.0,
+                    "PhoneInputMobile": "-1",
+                    "AlertRegulatoryCondition": "1"
+                },
+                "Scores": {
+                    "AutoScore": {
+                        "Score": 200.0,
+                        "ReasonCodes": []
+                    },
+                    "BankCardScore": {
+                        "Score": 200.0,
+                        "ReasonCodes": []
+                    },
+                    "ShortTermLendingScore": {
+                        "Score": 200.0,
+                        "ReasonCodes": []
+                    },
+                    "TelecomScore": {
+                        "Score": 200.0,
+                        "ReasonCodes": []
+                    },
+                    "CrossIndustryScore": {
+                        "Score": 0.0,
+                        "ReasonCodes": []
+                    }
+                },
+                "Alerts": [
+                    {
+                        "Description": "Subject reported as deceased",
+                        "Code": "200A"
+                    }
+                ]
+            },
+            "ResponseStructure": {
+                "Attributes": {
+                    "InputProvidedFirstName": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" ==  'InputProvidedFirstName'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedLastName": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedLastName'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedStreetAddress": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedStreetAddress'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedCity": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedCity'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedState": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedState'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedZipCode": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedZipCode'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedSSN": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedSSN'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedDateofBirth": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedDateofBirth'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedPhone": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedPhone'].\"Value\".\"#text\" | [0]",
+                    "InputProvidedLexID": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InputProvidedLexID'].\"Value\".\"#text\" | [0]",
+                    "SubjectRecordTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectRecordTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "SubjectRecordTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectRecordTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "SubjectNewestRecord12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectNewestRecord12Month'].\"Value\".\"#text\" | [0]",
+                    "SubjectActivityIndex03Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectActivityIndex03Month'].\"Value\".\"#text\" | [0]",
+                    "SubjectActivityIndex06Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectActivityIndex06Month'].\"Value\".\"#text\" | [0]",
+                    "SubjectActivityIndex12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectActivityIndex12Month'].\"Value\".\"#text\" | [0]",
+                    "SubjectAge": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectAge'].\"Value\".\"#text\" | [0]",
+                    "SubjectDeceased": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectDeceased'].\"Value\".\"#text\" | [0]",
+                    "SubjectSSNCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectSSNCount'].\"Value\".\"#text\" | [0]",
+                    "SubjectStabilityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectStabilityIndex'].\"Value\".\"#text\" | [0]",
+                    "SubjectStabilityPrimaryFactor": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectStabilityPrimaryFactor'].\"Value\".\"#text\" | [0]",
+                    "SubjectAbilityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectAbilityIndex'].\"Value\".\"#text\" | [0]",
+                    "SubjectAbilityPrimaryFactor": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectAbilityPrimaryFactor'].\"Value\".\"#text\" | [0]",
+                    "SubjectWillingnessIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectWillingnessIndex'].\"Value\".\"#text\" | [0]",
+                    "SubjectWillingnessPrimaryFactor": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SubjectWillingnessPrimaryFactor'].\"Value\".\"#text\" | [0]",
+                    "ConfirmationSubjectFound": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ConfirmationSubjectFound'].\"Value\".\"#text\" | [0]",
+                    "ConfirmationInputName": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ConfirmationInputName'].\"Value\".\"#text\" | [0]",
+                    "ConfirmationInputDOB": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ConfirmationInputDOB'].\"Value\".\"#text\" | [0]",
+                    "ConfirmationInputSSN": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ConfirmationInputSSN'].\"Value\".\"#text\" | [0]",
+                    "ConfirmationInputAddress": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ConfirmationInputAddress'].\"Value\".\"#text\" | [0]",
+                    "SourceNonDerogProfileIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceNonDerogProfileIndex'].\"Value\".\"#text\" | [0]",
+                    "SourceNonDerogCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceNonDerogCount'].\"Value\".\"#text\" | [0]",
+                    "SourceNonDerogCount03Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceNonDerogCount03Month'].\"Value\".\"#text\" | [0]",
+                    "SourceNonDerogCount06Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceNonDerogCount06Month'].\"Value\".\"#text\" | [0]",
+                    "SourceNonDerogCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceNonDerogCount12Month'].\"Value\".\"#text\" | [0]",
+                    "SourceCredHeaderTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceCredHeaderTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "SourceCredHeaderTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceCredHeaderTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "SourceVoterRegistration": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SourceVoterRegistration'].\"Value\".\"#text\" | [0]",
+                    "EducationAttendance": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EducationAttendance'].\"Value\".\"#text\" | [0]",
+                    "EducationEvidence": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EducationEvidence'].\"Value\".\"#text\" | [0]",
+                    "EducationProgramAttended": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EducationProgramAttended'].\"Value\".\"#text\" | [0]",
+                    "EducationInstitutionPrivate": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EducationInstitutionPrivate'].\"Value\".\"#text\" | [0]",
+                    "EducationInstitutionRating": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EducationInstitutionRating'].\"Value\".\"#text\" | [0]",
+                    "ProfLicCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ProfLicCount'].\"Value\".\"#text\" | [0]",
+                    "ProfLicTypeCategory": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ProfLicTypeCategory'].\"Value\".\"#text\" | [0]",
+                    "BusinessAssociation": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BusinessAssociation'].\"Value\".\"#text\" | [0]",
+                    "BusinessAssociationIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BusinessAssociationIndex'].\"Value\".\"#text\" | [0]",
+                    "BusinessAssociationTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BusinessAssociationTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "BusinessTitleLeadership": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BusinessTitleLeadership'].\"Value\".\"#text\" | [0]",
+                    "AssetIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetIndex'].\"Value\".\"#text\" | [0]",
+                    "AssetIndexPrimaryFactor": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetIndexPrimaryFactor'].\"Value\".\"#text\" | [0]",
+                    "AssetOwnership": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetOwnership'].\"Value\".\"#text\" | [0]",
+                    "AssetProp": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetProp'].\"Value\".\"#text\" | [0]",
+                    "AssetPropIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropIndex'].\"Value\".\"#text\" | [0]",
+                    "AssetPropEverCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropEverCount'].\"Value\".\"#text\" | [0]",
+                    "AssetPropCurrentCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropCurrentCount'].\"Value\".\"#text\" | [0]",
+                    "AssetPropCurrentTaxTotal": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropCurrentTaxTotal'].\"Value\".\"#text\" | [0]",
+                    "AssetPropPurchaseCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropPurchaseCount12Month'].\"Value\".\"#text\" | [0]",
+                    "AssetPropPurchaseTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropPurchaseTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "AssetPropPurchaseTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropPurchaseTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "AssetPropNewestMortgageType": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropNewestMortgageType'].\"Value\".\"#text\" | [0]",
+                    "AssetPropEverSoldCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropEverSoldCount'].\"Value\".\"#text\" | [0]",
+                    "AssetPropSoldCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropSoldCount12Month'].\"Value\".\"#text\" | [0]",
+                    "AssetPropSaleTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropSaleTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "AssetPropSaleTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropSaleTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "AssetPropNewestSalePrice": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropNewestSalePrice'].\"Value\".\"#text\" | [0]",
+                    "AssetPropSalePurchaseRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPropSalePurchaseRatio'].\"Value\".\"#text\" | [0]",
+                    "AssetPersonal": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPersonal'].\"Value\".\"#text\" | [0]",
+                    "AssetPersonalCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AssetPersonalCount'].\"Value\".\"#text\" | [0]",
+                    "PurchaseActivityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PurchaseActivityIndex'].\"Value\".\"#text\" | [0]",
+                    "PurchaseActivityCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PurchaseActivityCount'].\"Value\".\"#text\" | [0]",
+                    "PurchaseActivityDollarTotal": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PurchaseActivityDollarTotal'].\"Value\".\"#text\" | [0]",
+                    "DerogSeverityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'DerogSeverityIndex'].\"Value\".\"#text\" | [0]",
+                    "DerogCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'DerogCount'].\"Value\".\"#text\" | [0]",
+                    "DerogCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'DerogCount12Month'].\"Value\".\"#text\" | [0]",
+                    "DerogTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'DerogTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "CriminalFelonyCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalFelonyCount'].\"Value\".\"#text\" | [0]",
+                    "CriminalFelonyCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalFelonyCount12Month'].\"Value\".\"#text\" | [0]",
+                    "CriminalFelonyTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalFelonyTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "CriminalNonFelonyCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalNonFelonyCount'].\"Value\".\"#text\" | [0]",
+                    "CriminalNonFelonyCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalNonFelonyCount12Month'].\"Value\".\"#text\" | [0]",
+                    "CriminalNonFelonyTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'CriminalNonFelonyTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "EvictionCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EvictionCount'].\"Value\".\"#text\" | [0]",
+                    "EvictionCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EvictionCount12Month'].\"Value\".\"#text\" | [0]",
+                    "EvictionTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'EvictionTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentSeverityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentSeverityIndex'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentCount12Month'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentSmallClaimsCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentSmallClaimsCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentCourtCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentCourtCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentTaxCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentTaxCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentForeclosureCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentForeclosureCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentOtherCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentOtherCount'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "LienJudgmentDollarTotal": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'LienJudgmentDollarTotal'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyCount'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyCount24Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyCount24Month'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyChapter": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyChapter'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyStatus": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyStatus'].\"Value\".\"#text\" | [0]",
+                    "BankruptcyDismissed24Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'BankruptcyDismissed24Month'].\"Value\".\"#text\" | [0]",
+                    "ShortTermLoanRequest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ShortTermLoanRequest'].\"Value\".\"#text\" | [0]",
+                    "ShortTermLoanRequest12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ShortTermLoanRequest12Month'].\"Value\".\"#text\" | [0]",
+                    "ShortTermLoanRequest24Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'ShortTermLoanRequest24Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryAuto12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryAuto12Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryBanking12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryBanking12Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryTelcom12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryTelcom12Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryNonShortTerm12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryNonShortTerm12Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryShortTerm12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryShortTerm12Month'].\"Value\".\"#text\" | [0]",
+                    "InquiryCollections12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'InquiryCollections12Month'].\"Value\".\"#text\" | [0]",
+                    "SSNSubjectCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SSNSubjectCount'].\"Value\".\"#text\" | [0]",
+                    "SSNDeceased": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SSNDeceased'].\"Value\".\"#text\" | [0]",
+                    "SSNDateLowIssued": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SSNDateLowIssued'].\"Value\".\"#text\" | [0]",
+                    "SSNProblems": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'SSNProblems'].\"Value\".\"#text\" | [0]",
+                    "AddrOnFileCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrOnFileCount'].\"Value\".\"#text\" | [0]",
+                    "AddrOnFileCorrectional": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrOnFileCorrectional'].\"Value\".\"#text\" | [0]",
+                    "AddrOnFileCollege": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrOnFileCollege'].\"Value\".\"#text\" | [0]",
+                    "AddrOnFileHighRisk": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrOnFileHighRisk'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "AddrInputLengthOfRes": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputLengthOfRes'].\"Value\".\"#text\" | [0]",
+                    "AddrInputSubjectCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputSubjectCount'].\"Value\".\"#text\" | [0]",
+                    "AddrInputMatchIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputMatchIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrInputSubjectOwned": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputSubjectOwned'].\"Value\".\"#text\" | [0]",
+                    "AddrInputDeedMailing": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputDeedMailing'].\"Value\".\"#text\" | [0]",
+                    "AddrInputOwnershipIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputOwnershipIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrInputPhoneService": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputPhoneService'].\"Value\".\"#text\" | [0]",
+                    "AddrInputPhoneCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputPhoneCount'].\"Value\".\"#text\" | [0]",
+                    "AddrInputDwellType": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputDwellType'].\"Value\".\"#text\" | [0]",
+                    "AddrInputDwellTypeIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputDwellTypeIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrInputDelivery": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputDelivery'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTimeLastSale": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTimeLastSale'].\"Value\".\"#text\" | [0]",
+                    "AddrInputLastSalePrice": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputLastSalePrice'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTaxValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTaxValue'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTaxYr": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTaxYr'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTaxMarketValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTaxMarketValue'].\"Value\".\"#text\" | [0]",
+                    "AddrInputAVMValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputAVMValue'].\"Value\".\"#text\" | [0]",
+                    "AddrInputAVMValue12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputAVMValue12Month'].\"Value\".\"#text\" | [0]",
+                    "AddrInputAVMRatio12MonthPrior": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputAVMRatio12MonthPrior'].\"Value\".\"#text\" | [0]",
+                    "AddrInputAVMValue60Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputAVMValue60Month'].\"Value\".\"#text\" | [0]",
+                    "AddrInputAVMRatio60MonthPrior": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputAVMRatio60MonthPrior'].\"Value\".\"#text\" | [0]",
+                    "AddrInputCountyRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputCountyRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrInputTractRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputTractRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrInputBlockRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputBlockRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrInputProblems": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrInputProblems'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentLengthOfRes": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentLengthOfRes'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentSubjectOwned": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentSubjectOwned'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentDeedMailing": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentDeedMailing'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentOwnershipIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentOwnershipIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentPhoneService": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentPhoneService'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentDwellType": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentDwellType'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentDwellTypeIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentDwellTypeIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTimeLastSale": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTimeLastSale'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentLastSalesPrice": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentLastSalesPrice'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTaxValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTaxValue'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTaxYr": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTaxYr'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTaxMarketValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTaxMarketValue'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentAVMValue": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentAVMValue'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentAVMValue12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentAVMValue12Month'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentAVMRatio12MonthPrior": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentAVMRatio12MonthPrior'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentAVMValue60Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentAVMValue60Month'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentAVMRatio60MonthPrior": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentAVMRatio60MonthPrior'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentCountyRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentCountyRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentTractRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentTractRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentBlockRatio": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentBlockRatio'].\"Value\".\"#text\" | [0]",
+                    "AddrCurrentCorrectional": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrCurrentCorrectional'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousTimeOldest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousTimeOldest'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousTimeNewest": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousTimeNewest'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousLengthOfRes": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousLengthOfRes'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousSubjectOwned": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousSubjectOwned'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousOwnershipIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousOwnershipIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousDwellType": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousDwellType'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousDwellTypeIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousDwellTypeIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrPreviousCorrectional": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrPreviousCorrectional'].\"Value\".\"#text\" | [0]",
+                    "AddrStabilityIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrStabilityIndex'].\"Value\".\"#text\" | [0]",
+                    "AddrChangeCount03Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrChangeCount03Month'].\"Value\".\"#text\" | [0]",
+                    "AddrChangeCount06Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrChangeCount06Month'].\"Value\".\"#text\" | [0]",
+                    "AddrChangeCount12Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrChangeCount12Month'].\"Value\".\"#text\" | [0]",
+                    "AddrChangeCount24Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrChangeCount24Month'].\"Value\".\"#text\" | [0]",
+                    "AddrChangeCount60Month": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrChangeCount60Month'].\"Value\".\"#text\" | [0]",
+                    "AddrLastMoveTaxRatioDiff": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrLastMoveTaxRatioDiff'].\"Value\".\"#text\" | [0]",
+                    "AddrLastMoveEconTrajectory": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrLastMoveEconTrajectory'].\"Value\".\"#text\" | [0]",
+                    "AddrLastMoveEconTrajectoryIndex": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AddrLastMoveEconTrajectoryIndex'].\"Value\".\"#text\" | [0]",
+                    "PhoneInputProblems": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PhoneInputProblems'].\"Value\".\"#text\" | [0]",
+                    "PhoneInputSubjectCount": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PhoneInputSubjectCount'].\"Value\".\"#text\" | [0]",
+                    "PhoneInputMobile": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'PhoneInputMobile'].\"Value\".\"#text\" | [0]",
+                    "AlertRegulatoryCondition": "Envelope.Body.RiskView2ResponseEx.response.Result.AttributesGroup.Attributes.Attribute[?\"Name\".\"#text\" == 'AlertRegulatoryCondition'].\"Value\".\"#text\" | [0]"
+                },
+                "Scores": {
+                    "AutoScore": {
+                        "Score": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model)[?\"Name\".\"#text\" == 'AutoRVA1503_0'].Scores.Score.Value.\"#text\" | [0]",
+                        "ReasonCodes": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model[?\"Name\".\"#text\" == 'AutoRVA1503_0'].Scores.Score.ScoreReasons.ScoreReason)[].{Description: Description.\"#text\", ReasonCode: ReasonCode.\"#text\", Sequence: Sequence.\"#text\"}"
+                    },
+                    "BankCardScore": {
+                        "Score": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model)[?\"Name\".\"#text\" == 'BankCardRVB1503_0'].Scores.Score.Value.\"#text\" | [0]",
+                        "ReasonCodes": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model[?\"Name\".\"#text\" == 'BankCardRVB1503_0'].Scores.Score.ScoreReasons.ScoreReason)[].{Description: Description.\"#text\", ReasonCode: ReasonCode.\"#text\", Sequence: Sequence.\"#text\"}"
+                    },
+                    "ShortTermLendingScore": {
+                        "Score": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model)[?\"Name\".\"#text\" == 'ShortTermLendingRVG1502_0'].Scores.Score.Value.\"#text\" | [0]",
+                        "ReasonCodes": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model[?\"Name\".\"#text\" == 'ShortTermLendingRVG1502_0'].Scores.Score.ScoreReasons.ScoreReason)[].{Description: Description.\"#text\", ReasonCode: ReasonCode.\"#text\", Sequence: Sequence.\"#text\"}"
+                    },
+                    "TelecomScore": {
+                        "Score": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model)[?\"Name\".\"#text\" == 'TelecomRVT1503_0'].Scores.Score.Value.\"#text\" | [0]",
+                        "ReasonCodes": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model[?\"Name\".\"#text\" == 'TelecomRVT1503_0'].Scores.Score.ScoreReasons.ScoreReason)[].{Description: Description.\"#text\", ReasonCode: ReasonCode.\"#text\", Sequence: Sequence.\"#text\"}"
+                    },
+                    "CrossIndustryScore": {
+                        "Score": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model)[?\"Name\".\"#text\" == 'CrossIndustryRVS1706_0'].Scores.Score.Value.\"#text\" | [0]",
+                        "ReasonCodes": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Models.Model[?\"Name\".\"#text\" == 'CrossIndustryRVS1706_0'].Scores.Score.ScoreReasons.ScoreReason)[].{Description: Description.\"#text\", ReasonCode: ReasonCode.\"#text\", Sequence: Sequence.\"#text\"}"
+                    }
+                },
+                "Alerts": "to_array(Envelope.Body.RiskView2ResponseEx.response.Result.Alerts.Alert)[].{Code: Code.\"#text\", Description: Description.\"#text\"}"
+            }
+        },
+        "ECR": {
+            "Metadata": {
+                "Client": "BYTEA565ABCB8B304CF29AC301EF2F1F89CE",
+                "ReportVendor": "equifax",
+                "ReportName": "totalview",
+                "ReportVersion": "1.0",
+                "ReportEnvironment": "production",
+                "MatchData": [
+                    "Name",
+                    "Report"
+                ],
+                "StalenessLookback": 90,
+                "TimeoutLength": 10000,
+                "TraceID": "fa8c0ca1-2f90-4f9d-ba35-f519fac27d72-rtklwP+HsmR2h/EH22zWfTxC7g2Y8ztnqIlZvUr0Gv4=-0"
+            },
+            "Functions": {},
+            "InputParameters": {
+                "first_name": "Jayesm",
+                "last_name": "Choski",
+                "ssn": "666206834",
+                "dob": "01-01-1956",
+                "street_post_direction": "",
+                "street_number": "24334",
+                "street_name": "Daisy",
+                "unit_number": "D",
+                "city": "Anchorage",
+                "state": "AK",
+                "zip": "99506"
+            },
+            "Response": {
+                "Applicant": {
+                    "FirstName": "MADONNA",
+                    "LastName": "BARRY",
+                    "DOB": "06/19/1994",
+                    "SSN": "666583170"
+                },
+                "Scores": {
+                    "FICOScore": 601,
+                    "VantageScore": 669,
+                    "Scores": [
+                        {
+                            "ModelNumber": "02352",
+                            "Score": "00601",
+                            "Reasons": [
+                                {
+                                    "Rank": "1",
+                                    "Code": "00038",
+                                    "Description": "Serious delinquency, and derogatory public record or collection filed"
+                                },
+                                {
+                                    "Rank": "2",
+                                    "Code": "00018",
+                                    "Description": "Number of accounts with delinquency"
+                                },
+                                {
+                                    "Rank": "3",
+                                    "Code": "00008",
+                                    "Description": "Too many inquiries last 12 months"
+                                },
+                                {
+                                    "Rank": "4",
+                                    "Code": "00020",
+                                    "Description": "Length of time since derogatory public record or collection is too short"
+                                }
+                            ]
+                        },
+                        {
+                            "ModelNumber": "05402",
+                            "Score": "00669",
+                            "Reasons": [
+                                {
+                                    "Rank": "1",
+                                    "Code": "00012",
+                                    "Description": "Delinquent or derogatory status on accounts is too recent"
+                                },
+                                {
+                                    "Rank": "2",
+                                    "Code": "00087",
+                                    "Description": "Unpaid collections"
+                                },
+                                {
+                                    "Rank": "3",
+                                    "Code": "00085",
+                                    "Description": "Too many inquiries "
+                                },
+                                {
+                                    "Rank": "4",
+                                    "Code": "00037",
+                                    "Description": "No open bankcards in your credit file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Inquiries": [
+                    {
+                        "Date": "05/28/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/28/2020",
+                        "Name": "LENDMARK",
+                        "IndustryCode": "FP",
+                        "IndustryDescription": "Personal Loans Cos."
+                    },
+                    {
+                        "Date": "05/28/2020",
+                        "Name": "LENDMARK",
+                        "IndustryCode": "FP",
+                        "IndustryDescription": "Personal Loans Cos."
+                    },
+                    {
+                        "Date": "05/28/2020",
+                        "Name": "LENDMARK",
+                        "IndustryCode": "FP",
+                        "IndustryDescription": "Personal Loans Cos."
+                    },
+                    {
+                        "Date": "05/25/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/06/2020",
+                        "Name": "KFD TEST",
+                        "IndustryCode": "ZB",
+                        "IndustryDescription": "Miscellaneous Reptg. Agencies"
+                    },
+                    {
+                        "Date": "05/06/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/05/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/04/2020",
+                        "Name": "KFD TEST",
+                        "IndustryCode": "ZB",
+                        "IndustryDescription": "Miscellaneous Reptg. Agencies"
+                    },
+                    {
+                        "Date": "05/04/2020",
+                        "Name": "KFD TEST",
+                        "IndustryCode": "ZB",
+                        "IndustryDescription": "Miscellaneous Reptg. Agencies"
+                    },
+                    {
+                        "Date": "05/03/2020",
+                        "Name": "KROLL FD",
+                        "IndustryCode": "ZB",
+                        "IndustryDescription": "Miscellaneous Reptg. Agencies"
+                    },
+                    {
+                        "Date": "05/28/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/26/2020",
+                        "Name": "BPPR   021",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/23/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/22/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/21/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/20/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/18/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/17/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/15/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/15/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/14/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/07/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "05/07/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "BB",
+                        "IndustryDescription": "All Banks"
+                    },
+                    {
+                        "Date": "05/03/2020",
+                        "Name": "WFF",
+                        "IndustryCode": "FZ",
+                        "IndustryDescription": "Miscellaneous"
+                    },
+                    {
+                        "Date": "05/02/2020",
+                        "Name": "WFF",
+                        "IndustryCode": "FZ",
+                        "IndustryDescription": "Miscellaneous"
+                    },
+                    {
+                        "Date": "05/02/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "03/19/2020",
+                        "Name": "EFXSQA",
+                        "IndustryCode": "CG",
+                        "IndustryDescription": "General Clothing Stores"
+                    },
+                    {
+                        "Date": "02/02/2020",
+                        "Name": "ADVANCE AC",
+                        "IndustryCode": "ZZ",
+                        "IndustryDescription": "All Others"
+                    },
+                    {
+                        "Date": "09/22/2019",
+                        "Name": "1ST FAMILY",
+                        "IndustryCode": "FP",
+                        "IndustryDescription": "Personal Loans Cos."
+                    },
+                    {
+                        "Date": "09/08/2019",
+                        "Name": "CITYSCAPE",
+                        "IndustryCode": "FM",
+                        "IndustryDescription": "Mortgage Cos."
+                    },
+                    {
+                        "Date": "07/26/2019",
+                        "Name": "BK OF AMER",
+                        "IndustryCode": "FM",
+                        "IndustryDescription": "Mortgage Cos."
+                    },
+                    {
+                        "Date": "07/26/2019",
+                        "Name": "MCGINNIIS",
+                        "IndustryCode": "WZ",
+                        "IndustryDescription": "Miscellaneous"
+                    }
+                ],
+                "Trades": [
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FF",
+                        "CreditorDesc": "Sales Financing",
+                        "CreditorName": "GECAP/LEVI",
+                        "DateOpened": "12/2015",
+                        "DateOfLastActivity": "09/2018",
+                        "HighCreditAmount": "0003013",
+                        "PortfolioCode": "R",
+                        "PortfolioDesc": "Revolving or Option (open-end account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BC",
+                                "Description": "Account Transferred Or Sold"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "11/2013",
+                        "DateOfLastActivity": "08/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "12/2013",
+                        "DateOfLastActivity": "12/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "O",
+                        "PortfolioDesc": "Open Account (30, 60, or 90 day account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "11/2013",
+                        "DateOfLastActivity": "08/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "12/2013",
+                        "DateOfLastActivity": "12/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "O",
+                        "PortfolioDesc": "Open Account (30, 60, or 90 day account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0071504",
+                        "CreditorID": "FM",
+                        "CreditorDesc": "Mortgage Cos.",
+                        "CreditorName": "1ST NTWIDE",
+                        "DateOpened": "08/2013",
+                        "DateOfLastActivity": "03/2020",
+                        "HighCreditAmount": "0077000",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "0000657",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "EF",
+                                "Description": "Real Estate Mortgage"
+                            },
+                            {
+                                "Code": "HQ",
+                                "Description": "VA Mortgage"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FC",
+                        "CreditorDesc": "Credit Unions",
+                        "CreditorName": "CU ATLANTA",
+                        "DateOpened": "08/2012",
+                        "DateOfLastActivity": "10/2017",
+                        "HighCreditAmount": "0000600",
+                        "PortfolioCode": "R",
+                        "PortfolioDesc": "Revolving or Option (open-end account)",
+                        "PaymentAmount": "0000196",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": []
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FC",
+                        "CreditorDesc": "Credit Unions",
+                        "CreditorName": "CU ATLANTA",
+                        "DateOpened": "05/2012",
+                        "DateOfLastActivity": "08/2016",
+                        "HighCreditAmount": "0018000",
+                        "PortfolioCode": "R",
+                        "PortfolioDesc": "Revolving or Option (open-end account)",
+                        "PaymentAmount": "0000585",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": []
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0004363",
+                        "CreditorID": "FA",
+                        "CreditorDesc": "Auto Financing",
+                        "CreditorName": "GMAC",
+                        "DateOpened": "05/2015",
+                        "DateOfLastActivity": "03/2020",
+                        "HighCreditAmount": "0026179",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "0000436",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "AO",
+                                "Description": "Auto"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Joint",
+                        "BalanceAmount": "0004144",
+                        "CreditorID": "FM",
+                        "CreditorDesc": "Mortgage Cos.",
+                        "CreditorName": "UP/REGIONS",
+                        "DateOpened": "05/2011",
+                        "DateOfLastActivity": "02/2020",
+                        "HighCreditAmount": "0019500",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "0000202",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "IF",
+                                "Description": "Freddie Mac Account"
+                            },
+                            {
+                                "Code": "EF",
+                                "Description": "Real Estate Mortgage"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0002566",
+                        "CreditorID": "FY",
+                        "CreditorDesc": "Factoring Data",
+                        "CreditorName": "ARROW SER",
+                        "DateOpened": "",
+                        "DateOfLastActivity": "04/2019",
+                        "HighCreditAmount": "0002566",
+                        "PortfolioCode": "O",
+                        "PortfolioDesc": "Open Account (30, 60, or 90 day account)",
+                        "PaymentAmount": "0002566",
+                        "StatusCode": "5",
+                        "StatusDesc": "120 Dys or More PDue",
+                        "Narratives": [
+                            {
+                                "Code": "CZ",
+                                "Description": "Collection Account"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "",
+                        "BalanceAmount": "",
+                        "CreditorID": "BB",
+                        "CreditorDesc": "All Banks",
+                        "CreditorName": "CAP ONE",
+                        "DateOpened": "05/2019",
+                        "DateOfLastActivity": "07/2019",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "",
+                        "PortfolioDesc": "",
+                        "PaymentAmount": "",
+                        "StatusCode": "A",
+                        "StatusDesc": "Account is Inactive",
+                        "Narratives": [
+                            {
+                                "Code": "CW",
+                                "Description": "Account Closed By Credit Grantor"
+                            },
+                            {
+                                "Code": "FE",
+                                "Description": "Credit Card"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Co-maker",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FC",
+                        "CreditorDesc": "Credit Unions",
+                        "CreditorName": "GPC CREDIT",
+                        "DateOpened": "03/2017",
+                        "DateOfLastActivity": "04/2019",
+                        "HighCreditAmount": "0003116",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "",
+                        "StatusDesc": "",
+                        "Narratives": [
+                            {
+                                "Code": "FA",
+                                "Description": "Closed or Paid Account/Zero Balance"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ON",
+                        "CreditorDesc": "National Credit Card Cos.",
+                        "CreditorName": "ATT UNIVSL",
+                        "DateOpened": "10/2015",
+                        "DateOfLastActivity": "01/2017",
+                        "HighCreditAmount": "0004393",
+                        "PortfolioCode": "R",
+                        "PortfolioDesc": "Revolving or Option (open-end account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BZ",
+                                "Description": "Account Paid For Less Than Full Balance"
+                            },
+                            {
+                                "Code": "FE",
+                                "Description": "Credit Card"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FP",
+                        "CreditorDesc": "Personal Loans Cos.",
+                        "CreditorName": "BENFCL/HFC",
+                        "DateOpened": "09/2015",
+                        "DateOfLastActivity": "06/2018",
+                        "HighCreditAmount": "0005508",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "FA",
+                                "Description": "Closed or Paid Account/Zero Balance"
+                            },
+                            {
+                                "Code": "AW",
+                                "Description": "Secured By Household Goods"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Maker",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FM",
+                        "CreditorDesc": "Mortgage Cos.",
+                        "CreditorName": "PIONEER CR",
+                        "DateOpened": "06/2015",
+                        "DateOfLastActivity": "04/2018",
+                        "HighCreditAmount": "0005573",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "4",
+                        "StatusDesc": "Not More than 4 Pmts PDue",
+                        "Narratives": [
+                            {
+                                "Code": "FA",
+                                "Description": "Closed or Paid Account/Zero Balance"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "UT",
+                        "CreditorDesc": "Telephone Companies",
+                        "CreditorName": "CINGWIR-GA",
+                        "DateOpened": "09/2016",
+                        "DateOfLastActivity": "10/2017",
+                        "HighCreditAmount": "0000291",
+                        "PortfolioCode": "O",
+                        "PortfolioDesc": "Open Account (30, 60, or 90 day account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Maker",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FM",
+                        "CreditorDesc": "Mortgage Cos.",
+                        "CreditorName": "PIONEER CR",
+                        "DateOpened": "07/2014",
+                        "DateOfLastActivity": "08/2017",
+                        "HighCreditAmount": "0004155",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "2",
+                        "StatusDesc": "Not More than 2 Pmts PDue",
+                        "Narratives": [
+                            {
+                                "Code": "FA",
+                                "Description": "Closed or Paid Account/Zero Balance"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "FP",
+                        "CreditorDesc": "Personal Loans Cos.",
+                        "CreditorName": "SPRNGLFFIN",
+                        "DateOpened": "02/2016",
+                        "DateOfLastActivity": "06/2017",
+                        "HighCreditAmount": "0002348",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "FA",
+                                "Description": "Closed or Paid Account/Zero Balance"
+                            },
+                            {
+                                "Code": "EE",
+                                "Description": "Secured"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "11/2013",
+                        "DateOfLastActivity": "08/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "I",
+                        "PortfolioDesc": "Installment (fixed number of payments)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Individual",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "ZZ",
+                        "CreditorDesc": "All Others",
+                        "CreditorName": "VERIZONCEL",
+                        "DateOpened": "12/2013",
+                        "DateOfLastActivity": "12/2015",
+                        "HighCreditAmount": "",
+                        "PortfolioCode": "O",
+                        "PortfolioDesc": "Open Account (30, 60, or 90 day account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "9",
+                        "StatusDesc": "Bad Debt-Collection-Skip",
+                        "Narratives": [
+                            {
+                                "Code": "BQ",
+                                "Description": "Paid Charge Off"
+                            }
+                        ]
+                    },
+                    {
+                        "AccountType": "Shared",
+                        "BalanceAmount": "0000000",
+                        "CreditorID": "HF",
+                        "CreditorDesc": "Furniture, Etc.",
+                        "CreditorName": "CAP1/RHODE",
+                        "DateOpened": "07/2010",
+                        "DateOfLastActivity": "01/2017",
+                        "HighCreditAmount": "0000000",
+                        "PortfolioCode": "R",
+                        "PortfolioDesc": "Revolving or Option (open-end account)",
+                        "PaymentAmount": "",
+                        "StatusCode": "1",
+                        "StatusDesc": "Pays Acct As Agreed",
+                        "Narratives": [
+                            {
+                                "Code": "CW",
+                                "Description": "Account Closed By Credit Grantor"
+                            },
+                            {
+                                "Code": "AV",
+                                "Description": "Charge"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ResponseStructure": {
+                "Applicant": {
+                    "FirstName": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USHeader.Subject.SubjectName.FirstName.\"#text\"",
+                    "LastName": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USHeader.Subject.SubjectName.LastName.\"#text\"",
+                    "DOB": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USHeader.Subject.SubjectId.DateOfBirth.\"#text\"",
+                    "SSN": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USHeader.Subject.SubjectId.SubjectSSN.\"#text\""
+                },
+                "Scores": {
+                    "FICOScore": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USModelScores.USModelScore[?ModelNumber.\"#text\"=='02352'].ScoreResult.\"#text\"| [0]",
+                    "VantageScore": "EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USModelScores.USModelScore[?ModelNumber.\"#text\"=='05402'].ScoreResult.\"#text\"| [0]",
+                    "Scores": "to_array(EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USModelScores.USModelScore)[].{ModelNumber:ModelNumber.\"#text\",Score:ScoreResult.\"#text\",Reasons:to_array(ScoreReasons.ScoreReason)[].{Rank:sum([\"_seq\",to_number('1')]),Code:\"-code\",Description:\"-description\"}}"
+                },
+                "Inquiries": "to_array(EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USInquiries.USInquiry)[].{Date:DateOfInquiry.\"#text\",Name:CustomerId.Name.\"#text\",IndustryCode:CustomerId.Industry.\"-code\",IndustryDescription:CustomerId.Industry.\"-description\"}",
+                "Trades": "to_array(EfxTransmit.EfxReport.USConsumerCreditReports.USConsumerCreditReport.USTrades.USTrade)[].{AccountType:AccountDesignator.\"-description\",BalanceAmount:BalanceAmount.\"#text\",CreditorID:CreditorId.Industry.\"-code\",CreditorDesc:CreditorId.Industry.\"-description\",CreditorName:CreditorId.Name.\"#text\",DateOpened:DateOpened.\"#text\",DateOfLastActivity:DateOfLastActivity.\"#text\",HighCreditAmount:HighCreditAmount.\"#text\",PortfolioCode:PortfolioType.\"-code\",PortfolioDesc:PortfolioType.\"-description\",PaymentAmount:ScheduledPaymentAmount.\"#text\",StatusCode:Status.\"-code\",StatusDesc:Status.\"-description\",Narratives:to_array(Narratives.Narrative)[].{Code:\"-code\",Description:\"-description\"}}"
+            }
+        },
+        "edc_harmonize_models": {
+            "tailored_credit_model": {
+                "metadata": {
+                    "Client": "BYTEA565ABCB8B304CF29AC301EF2F1F89CE",
+                    "ModelName": "wd-credit-underwriting-v1-endpoint",
+                    "ModelVersion": "1",
+                    "TimeoutLength": 10000,
+                    "TraceID": "fa8c0ca1-2f90-4f9d-ba35-f519fac27d72-rtklwP+HsmR2h/EH22zWfTxC7g2Y8ztnqIlZvUr0Gv4=-0"
+                },
+                "functions": {},
+                "Request": {
+                    "TransUnion": {
+                        "FICOScore": 601.0
+                    },
+                    "LexisNexis": {
+                        "AddrPreviousTimeOldest": -1.0,
+                        "SubjectWillingnessIndex": -1.0,
+                        "SubjectWillingnessPrimaryFactor": "C12",
+                        "SSNSubjectCount": 0.0,
+                        "AddrOnFileCount": 0.0,
+                        "SubjectAbilityPrimaryFactor": "A42",
+                        "AddrCurrentOwnershipIndex": "0",
+                        "DerogSeverityIndex": 0.0,
+                        "AssetPropCurrentTaxTotal": -1.0,
+                        "AddrInputOwnershipIndex": "0",
+                        "AssetPropIndex": 0.0,
+                        "PhoneInputProblems": "-1",
+                        "LienJudgmentSeverityIndex": 0.0,
+                        "InquiryShortTerm12Month": "0",
+                        "AssetIndex": -1.0,
+                        "AddrInputLengthOfRes": -1.0
+                    }
+                },
+                "response": {
+                    "positive_reasons": [
+                        "P00 - Positive impact from high FICO Score",
+                        "P05 - Positive impact from limited number of addresses on file.",
+                        "P16 - Positive impact from length of residence"
+                    ],
+                    "negative_reasons": [
+                        "N09 - Negative impact from lack of tax-assessed value of properties owned",
+                        "N02 - Negative impact from ability to fulfill a credit obligation",
+                        "N01 - Negative impact from lack of time at last known address"
+                    ],
+                    "prediction": [
+                        0.7497895177260687,
+                        0.2502104822739312
+                    ]
+                },
+                "RequestDataMap": {
+                    "TransUnion": {
+                        "FICOScore": "FICOScore"
+                    },
+                    "LexisNexis": {
+                        "AddrPreviousTimeOldest": "addrprevioustimeoldest",
+                        "SubjectWillingnessIndex": "subjectwillingnessindex",
+                        "SubjectWillingnessPrimaryFactor": "subjectwillingnessprimaryfactor",
+                        "SSNSubjectCount": "ssnsubjectcount",
+                        "AddrOnFileCount": "addronfilecount",
+                        "SubjectAbilityPrimaryFactor": "subjectabilityprimaryfactor",
+                        "AddrCurrentOwnershipIndex": "addrcurrentownershipindex",
+                        "DerogSeverityIndex": "derogseverityindex",
+                        "AssetPropCurrentTaxTotal": "assetpropcurrenttaxtotal",
+                        "AddrInputOwnershipIndex": "addrinputownershipindex",
+                        "AssetPropIndex": "assetpropindex",
+                        "PhoneInputProblems": "phoneinputproblems",
+                        "LienJudgmentSeverityIndex": "lienjudgmentseverityindex",
+                        "InquiryShortTerm12Month": "inquiryshortterm12month",
+                        "AssetIndex": "assetindex",
+                        "AddrInputLengthOfRes": "addrinputlengthofres"
+                    }
+                }
+            }
+        },
+        "Request": {
+            "AppID": "TestSeed1",
+            "FirstName": "Jayesm",
+            "LastName": "Choski",
+            "MiddleName": "",
+            "Suffix": "",
+            "DOB": "01-01-1956",
+            "SSN": "666206834",
+            "PhoneNumber": "",
+            "AddressPrefix": "",
+            "StreetNumber": "24334",
+            "StreetName": "Daisy",
+            "StreetType": "",
+            "UnitNumber": "D",
+            "City": "Anchorage",
+            "State": "AK",
+            "Zip": "99506"
+        },
+        "response": {
+            "ResponseID": "fa8c0ca1-2f90-4f9d-ba35-f519fac27d72-rtklwP+HsmR2h/EH22zWfTxC7g2Y8ztnqIlZvUr0Gv4=-0",
+            "Decision": "Approve",
+            "EnovaDecisionsScore": 568,
+            "FICOScore": 601,
+            "VantageScore": 669,
+            "result_codes": [
+                {
+                    "code": "P00",
+                    "description": "Positive impact from high FICO Score"
+                },
+                {
+                    "code": "P05",
+                    "description": "Positive impact from limited number of addresses on file."
+                },
+                {
+                    "code": "P16",
+                    "description": "Positive impact from length of residence"
+                },
+                {
+                    "code": "N09",
+                    "description": "Negative impact from lack of tax-assessed value of properties owned"
+                },
+                {
+                    "code": "N02",
+                    "description": "Negative impact from ability to fulfill a credit obligation"
+                },
+                {
+                    "code": "N01",
+                    "description": "Negative impact from lack of time at last known address"
+                }
+            ]
+        },
+        "Tracing": {
+            "TraceID": "fa8c0ca1-2f90-4f9d-ba35-f519fac27d72-rtklwP+HsmR2h/EH22zWfTxC7g2Y8ztnqIlZvUr0Gv4=-0"
+        }
+    }
+]

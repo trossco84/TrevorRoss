@@ -1,0 +1,25 @@
+[{
+    "request": {
+          "client_brand": "WesternDental",
+          "client_product": "InstallmentLoan",
+          "client_business_process": "PatientOnboarding",
+          "decision_process": "IndividualUnderwriting",
+          "applicant_identifier": "12435698",
+          "extended_data": {
+            "applicant_information": {
+              "first_name": "WILLIAM",
+              "last_name": "BRODY",
+              "home_address": {
+                "street_address_1": "75 LEMOINE AV",
+                "street_address_2": "",
+                "city": "CHEEKTOWAGA",
+                "state": "NY",
+                "postal_code": "14227"
+              },
+              "ssn": "666632165",
+              "dob": "03-24-1989"
+            }
+          }
+        }
+  }
+  ]

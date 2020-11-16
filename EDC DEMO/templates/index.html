@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<style>
+    .row div{padding:15px 15px;border: 1px solid black;}
+    .col div{padding:15px 15px;border: 1px solid black;}
+    .container div{border:.5px solid black}
+</style>
+{% endblock %}
+
+{% block body%}
+<div class="container">
+    <div class="row" style="background-color: rgb(136, 218, 156);">
+        <h1>Welcome to the EDC Demo</h1>
+    </div>
+</div>
+<form action="/index" method="POST">
+    <div class="container" style="background-color: lightsalmon;">
+        <div class="row">
+            <div class="col-sm-3">
+                    <input type="checkbox" onclick="toggleVisibility('idv')" name="IDV">
+                    <label>Identity Verification</label>
+            </div> 
+            <div class="col-sm-3">
+                    <input type="checkbox" name="FRAUD">
+                    <label>Fraud Detection</label>
+            </div>
+            <div class="col-sm-3">
+                    <input type="checkbox" name="CREDIT">
+                    <label>Credit Underwriting</label>
+            </div>
+            <div class="col-sm-3">
+                    <input type="checkbox" name="OPTIMIZE">
+                    <label>Loan Optimization</label>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 20px; padding-top: 10px; padding-bottom: 10px;"><button type="submit" class="btn btn-primary";>Submit</button></div>
+    </div>
+</form>
+<div class="container" style="background-color: aliceblue;">
+    <h2>Selected Solution:</h2>
+    <script>
+        function toggleVisibility(id) {
+            var el = document.getElementById(id);
+    
+            if (el.style.visibility=="visible") { 
+                 el.style.visibility="hidden";
+            }
+            else {
+                el.style.visibility="visible";
+            }
+        }
+        var flowlist = [None];
+
+        function addtoList(id) {
+            if (id in flowlist) {
+                flowlist.splice(id);
+            }
+            else {
+                flowlist.push(id);
+            }
+        }
+    </script>
+    <script src="/static/js/main_page_flow_pictures.js"></script>
+    <img id="idv" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt = "YOO" style="visibility: hidden;">
+    <h2>{{ flowname }}</h2>
+</div>
+
+
+{% endblock %}

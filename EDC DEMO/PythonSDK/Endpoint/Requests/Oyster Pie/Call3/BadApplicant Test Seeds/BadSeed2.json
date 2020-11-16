@@ -1,0 +1,32 @@
+[
+    {
+      "Request": {
+        "OysterPieID": "OPCall3_BadSeed1",
+        "EnquiryPurpose": "A000",
+        "EnquiryAmount": 10000,    
+        "FirstName": "FLIMITED HISTORY",            
+        "LastName": "TUMAK",
+        "LastName2": "",
+        "LastName3": "",
+        "OtherName": "DO DO",
+        "Suffix": "",
+        "DOB": "02-13-1989",
+        "FirstIDNumber": "B2979301",
+        "FirstIDType": "ID",
+        "FirstIssueCountryCD": "HKG",
+        "SecondIDNumber": "",
+        "SecondIDType": "",
+        "SecondIssueCountryCD": "",
+        "AddressLine1": "TUMAK DO DO ONE LINE 1",
+        "AddressLine2": "TUMAK DO DO ONE LINE 2",
+        "District": "",
+        "Territory": "",
+        "PhoneNumber": "",
+        "LoanTenor":1,
+        "MonthlyIncome": 23000,
+        "Occupation": "Cleaner",
+        "MonthlyRent": 1000
+      }
+    }
+  ]
+  
