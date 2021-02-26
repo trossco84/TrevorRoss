@@ -1,0 +1,10 @@
+timestamp,breakfast_binary, coffee_binary, breakfast_type, breakfast_calories, coffee_calories, lunch_binary, lunch_type, lunch_calories, dinner_binary, dinner_type, dinner_calories, exercise_binary, exercise_type, exercise_level, exercise_multiple,daily_calories
+2021-01-06,0.0,1.0,,0.0,60.0,1.0,Good,400.0,1.0,Ok,700.0,1.0,Both,I had an Ok workout,0.0,1163.0
+2021-01-07,1.0,1.0,Good,240.0,60.0,1.0,Ok,640.0,1.0,Good,240.0,1.0,Both,I had a good workout today,0.0,1183.0
+2021-01-08,0.0,1.0,,0.0,60.0,,,,1.0,Bad,1100.0,1.0,Both,I had an Ok workout,1.0,1163.0
+2021-01-09,0.0,1.0,,0.0,60.0,,,,1.0,Bad,1100.0,0.0,,,0.0,1161.0
+2021-01-10,0.0,1.0,,0.0,50.0,,,,1.0,Bad,1100.0,,,,,1151.0
+2021-01-11,0.0,1.0,,0.0,50.0,,,,1.0,Bad,1500.0,1.0,Both,I had an Ok workout,0.0,1552.0
+2021-01-12,0.0,0.0,,0.0,0.0,1.0,Ok,800.0,1.0,Bad,1000.0,1.0,Cardio,I had an Ok workout,0.0,1803.0
+2021-01-13,0.0,1.0,,0.0,87.0,0.0,,0.0,1.0,Bad,1100.0,1.0,Cardio,I had a good workout today,0.0,1189.0
+2021-01-14,0,1,,0.0,80.0,,,,,,,,,,,80.0

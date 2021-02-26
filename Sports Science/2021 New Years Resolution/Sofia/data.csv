@@ -1,0 +1,5 @@
+timestamp,breakfast_binary, coffee_binary, breakfast_type, breakfast_calories, coffee_calories, lunch_binary, lunch_type, lunch_calories, dinner_binary, dinner_type, dinner_calories, exercise_binary, exercise_type, exercise_level, exercise_multiple,daily_calories
+1/6/21,0,1,,0,88,1,VGood,400,1,Good,300,1,Cardio,I had an Ok workout,0.0,788
+1/7/21,1,0,Good,240,0,1,Ok,430,1,Good,240,1,Cardio,I had a good workout today,0.0,910
+1/8/21,1,1,VGood,60,80,1,Ok,450,1,Bad,500,0,,,,1090
+2021-01-09,0,1,,0,80,1,Good,240,1,Bad,1000,0,,,0,1320
