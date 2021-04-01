@@ -3,13 +3,12 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 from dash.dependencies import Input,Output
-import dash_auth
 
-VALID_USERNAME_PASSWORD_PAIRS = [
-    ['xpyragt-a', 'Cooper.777'],
-    ['xpyragt-a', 'cooper.777'],
-    ['tross', 'admin']
-]
+# VALID_USERNAME_PASSWORD_PAIRS = [
+#     ['xpyragt-a', 'Cooper.777'],
+#     ['xpyragt-a', 'cooper.777'],
+#     ['tross', 'admin']
+# ]
 
 #data folder is weekly outputs, eventually be able to filter on this
 #for now:
