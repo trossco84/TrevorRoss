@@ -24,7 +24,7 @@ As you can probably tell, my name is Trevor Ross. I was born and raised in South
   This is a collection of projects I've created to test different strategies in the stock market. Most of this just contains the data analysis/ideas I've had. If you'd like a look at my proprietary trading strategies (Algorithmic or Logic Based), please reach out.
 * Sports Science
   
-  Sports is one of my hobbies and passions. This is a collection of various sport related projects including a deployed live website that shows a dashboard sports gambling data for a small book.
+  Sports is one of my hobbies and passions. This is a collection of various sport related projects including a deployed live website that shows a dashboard for sports gambling data for a small book, you can check it out here: bettingatwork.herokuapp.com .
 
 
 ## Contact Information
