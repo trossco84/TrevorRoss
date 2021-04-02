@@ -40,9 +40,10 @@ g2['Number of Players'][0:4] = [5,17,10,14]
 totalrevenue = "${:,.2f}".format(g2.iloc[-1].Revenue)
 bestweek = "${:,.2f}".format(g2['Final Balance'].max())
 worstweek = "${:,.2f}".format(g2['Final Balance'].min())
-with open("https://raw.githubusercontent.com/trossco84/TrevorRoss/master/Sports%20Science/betatwork/totalfees.txt") as f:
-    fees = f.readlines()
-f1 = "${:,.2f}".format(int(fees[0]))
+totalfees = pd.read_csv('https://raw.githubusercontent.com/trossco84/TrevorRoss/master/Sports%20Science/betatwork/totalfees.txt').columns[0]
+fees = int(totalfees)
+profit = g2.iloc[-1].Revenue - fees
+total_profit = "${:,.2f}".format(profit)
 blue62 = raw2.groupby('Agent').sum()
 b62 = pd.DataFrame(((.6)*blue62['Expected Balance']) * ((.4)*blue62['Number of Players']),columns=['Rank'])
 topagent = b62.Rank.idxmax()
@@ -149,7 +150,7 @@ app.layout = html.Div(
                         ),
                         html.Div(
                             children=[
-                            html.H5(f"Total Profit: {totalrevenue - f1}"),
+                            html.H5(f"Total Profit: {total_profit}"),
                             html.H5(f"Best Week: {bestweek}"),
                             html.H6(f"Worst Week: {worstweek}")
                             ]
@@ -157,7 +158,7 @@ app.layout = html.Div(
                         html.Div(
                             children=[
                             html.H2(f"Top Agent: {topagent}"),
-                            html.H5(f" - top agent defined as a combination of revenue and players")]
+                            html.P(f" - top agent defined as a combination of revenue and players")]
                         ),
                     ],
                 ),
