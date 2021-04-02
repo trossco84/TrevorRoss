@@ -55,7 +55,24 @@ def update_pyragt(w3, pyragt):
     
     return w3, pyragt
 
-def update_master(weekly_records):
+def update_master(weekly_records,lm):
+    # wr1 = weekly_records.copy()
+    # ls1 = lm
+    # wr1['Amt'] = [wr1.loc[x].Amount if wr1.loc[x].Action == "Request" else (wr1.loc[x].Amount*(-1)) for x in wr1.index]
+    # raw9 = pd.read_csv('/Users/trevorross/Desktop/My Projects/TrevorRoss/Sports Science/betatwork/raw_archives.csv')
+    # wr1 = wr1.groupby('Agent').sum().drop(['Amount'],axis=1).rename(columns={'Amt':'Expected Balance'})
+    # wr1['Final Balance'] = wr1['Expected Balance'].sum()/4
+    # wr2 = pd.DataFrame(wr1.Agent.value_counts()).rename(columns={'Agent':'Number of Players'})
+    # wr3 = wr2.join(wr1).reset_index().rename(columns={'index':'Agent'})
+    # wr3['Week'] = ls1.date()
+    # raw10 = raw9.append(wr3,ignore_index=True)
+    # raw10.to_csv()
+    master_analysis.process_new_week(weekly_records,lm)
+    rd = pd.read_csv('/Users/trevorross/Desktop/My Projects/TrevorRoss/Sports Science/betatwork/raw_archives.csv')
+    master_analysis.create_totals(rd)
+
+
+
 
 
 def any_slips(w2):
@@ -188,7 +205,7 @@ def process_agents(w2,pyragt):
     lm_string = str(last_monday.month) + '_' + str(last_monday.day) + '_' + str(last_monday.year)
     weekly_records_df.to_csv(f'/Users/trevorross/Desktop/My Projects/bettingatwork/weekly_outputs/{lm_string}')
 
-    update_master(weekly_records,lm_string)
+    update_master(weekly_records_df,last_monday)
 
     print()
     print('Christian:')

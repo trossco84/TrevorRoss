@@ -38,11 +38,3 @@ def create_totals(raw_data):
     tots['Avg Players per Week'] = rgroup['Number of Players']/numweeks
     tots['Avg Revenue per Week'] = tots['Total Revenue']/numweeks
     tots.to_csv('/Users/trevorross/Desktop/My Projects/bettingatwork/agent_totals.csv')
-
-
-trev = r3[r3['Agent']=='Trev']
-
-sns.lineplot
-
-sns.lineplot(y=trev['Number of Players'],x=[str(x) for x in trev['Week']])
-plt.xticks(rotation=90)

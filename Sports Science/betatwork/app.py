@@ -28,6 +28,7 @@ last_week = raws.Week.max()
 lw_data = raws[raws.Week == last_week]
 raw2 = raws.copy()
 
+
 #overall revenue
 overall = totals.reset_index()
 
@@ -39,6 +40,9 @@ g2['Number of Players'][0:4] = [5,17,10,14]
 totalrevenue = "${:,.2f}".format(g2.iloc[-1].Revenue)
 bestweek = "${:,.2f}".format(g2['Final Balance'].max())
 worstweek = "${:,.2f}".format(g2['Final Balance'].min())
+with open("https://raw.githubusercontent.com/trossco84/TrevorRoss/master/Sports%20Science/betatwork/totalfees.txt") as f:
+    fees = f.readlines()
+f1 = "${:,.2f}".format(int(fees[0]))
 blue62 = raw2.groupby('Agent').sum()
 b62 = pd.DataFrame(((.6)*blue62['Expected Balance']) * ((.4)*blue62['Number of Players']),columns=['Rank'])
 topagent = b62.Rank.idxmax()
@@ -145,7 +149,7 @@ app.layout = html.Div(
                         ),
                         html.Div(
                             children=[
-                            html.H5(f"Total Revenue: {totalrevenue}"),
+                            html.H5(f"Total Profit: {totalrevenue - f1}"),
                             html.H5(f"Best Week: {bestweek}"),
                             html.H6(f"Worst Week: {worstweek}")
                             ]
