@@ -28,5 +28,5 @@ As you can probably tell, my name is Trevor Ross. I was born and raised in South
 
 
 ## Contact Information
-Please feel free to reach out to my personal email: tross@accentex.com. I am also a Co-Founder and Chief Analytics Officer for a small Palm Beach based Consulting Firm, Accentex (accentex.com). We handle a large range of inquiries from Data Management Consultation, to Statistical Analysis, to Infrastructure Optimization. 
+Please feel free to reach out to my personal email: tross@accentex.com. I am also a Co-Founder and Chief Analytics Officer for a small Palm Beach based consulting firm, Accentex (accentex.com). We handle a large range of inquiries from Data Management Consultation, to Statistical Analysis, to Infrastructure Optimization. 
 
