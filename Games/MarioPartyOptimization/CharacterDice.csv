@@ -1,0 +1,22 @@
+Character,P1,P2,P3,P4,P5,P6
+Mario,1,3,3,3,5,6
+Luigi,1,1,1,5,6,7
+Peach,0,2,4,4,4,6
+Daisy,3,3,3,3,4,4
+Wario,- 2 coins, -2 coins,6,6,6,6
+Waluigi,- 3 coins,1,3,5,5,7
+Yoshi,0,1,3,5,5,7
+Rosalina,+2 coins, +2 coins,2,3,4,8
+Donkey Kong,+5 coins,0,0,0,10,10
+Diddy Kong,+2 coins,0,0,7,7,7
+Goomba,+2 coins, +2 coins,3,4,5,6
+Shy Guy,0,4,4,4,4,4
+Koopa Troopa,1,1,2,3,3,10
+Monty Mole,+1 coin,2,3,4,5,6
+Bowser,- 3 coins, -3 coins,1,8,9,10
+Bowser Jr.,1,1,1,4,4,9
+Boo,- 2 coins, -2 coins,5,5,7,7
+Hammer Bro.,+3 coins,1,1,1,5,5
+Dry Bones,1,1,1,6,6,6
+Pom Pom,0,3,3,3,3,8
+NORMAL,1,2,3,4,5,6
